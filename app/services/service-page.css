@@ -1,0 +1,646 @@
+/* ============================================================
+   Route Tech — Service detail pages (AIS-140 GPS, Mining GPS)
+   Mobile-first. Reuses global tokens: --navy, --blue, --orange,
+   --ink, --muted, --line, --soft, --shadow, --shell.
+   ============================================================ */
+
+/* ---------- Hero ---------- */
+.svc-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: #fff;
+  background: radial-gradient(circle at 78% 30%, #12467f 0, #082c58 36%, #05213f 68%, #041524 100%);
+}
+
+.svc-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 620px;
+  height: 620px;
+  right: -160px;
+  top: -220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(34, 118, 229, .26), transparent 66%);
+  pointer-events: none;
+}
+
+.svc-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 420px;
+  height: 420px;
+  left: -140px;
+  bottom: -240px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 122, 26, .16), transparent 70%);
+  pointer-events: none;
+}
+
+.svc-hero-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 34px;
+  align-items: center;
+  padding: 72px 0 88px;
+}
+
+.svc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: #ffd7b0;
+  background: rgba(255, 122, 26, .14);
+  border: 1px solid rgba(255, 138, 48, .34);
+}
+
+.svc-badge svg {
+  color: var(--orange-2);
+}
+
+.svc-hero h1 {
+  margin: 20px 0 0;
+  font-size: clamp(37px, 7.4vw, 63px);
+  line-height: 1.03;
+  letter-spacing: -.032em;
+}
+
+.svc-hero h1 em {
+  font-style: normal;
+  color: var(--orange-2);
+}
+
+.svc-hero-sub {
+  margin: 15px 0 0;
+  font-size: clamp(16px, 2.5vw, 20px);
+  font-weight: 700;
+  color: #d3e2f5;
+}
+
+.svc-hero-lead {
+  margin: 17px 0 0;
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #b7cae0;
+}
+
+.svc-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  margin-top: 26px;
+}
+
+.svc-trust span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #cddcf0;
+}
+
+.svc-trust svg {
+  color: #5fa8fb;
+  flex: none;
+}
+
+.svc-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.svc-hero-actions .btn {
+  min-height: 52px;
+}
+
+.svc-ghost-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 24px;
+  border-radius: 14px;
+  font-weight: 800;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(255, 255, 255, .3);
+  transition: background .2s;
+}
+
+.svc-ghost-btn:hover {
+  background: rgba(255, 255, 255, .14);
+}
+
+.svc-hero-media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(120, 180, 255, .2);
+  box-shadow: 0 40px 90px rgba(0, 0, 0, .42);
+}
+
+.svc-hero-media img {
+  object-fit: cover;
+}
+
+.svc-media-badge {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 11px 15px;
+  border-radius: 13px;
+  background: rgba(4, 20, 38, .82);
+  border: 1px solid rgba(127, 187, 255, .24);
+  backdrop-filter: blur(10px);
+}
+
+.svc-media-badge svg {
+  color: #5fa8fb;
+  flex: none;
+}
+
+.svc-media-badge b {
+  display: block;
+  font-size: 13px;
+}
+
+.svc-media-badge small {
+  display: block;
+  margin-top: 2px;
+  font-size: 10px;
+  color: #9fb6d0;
+}
+
+/* ---------- Stats bar (overlaps hero) ---------- */
+.svc-stats {
+  position: relative;
+  z-index: 3;
+  margin-top: -40px;
+}
+
+.svc-stats .shell {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--line);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.svc-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 22px 16px;
+  text-align: center;
+  background: #fff;
+}
+
+.svc-stat b {
+  font-size: clamp(21px, 3vw, 29px);
+  color: var(--navy);
+  letter-spacing: -.02em;
+}
+
+.svc-stat span {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+/* ---------- Two-column intro ---------- */
+.svc-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.svc-split .lead {
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0 0 16px;
+}
+
+.svc-split p {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.svc-checklist {
+  display: grid;
+  gap: 13px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.svc-checklist li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.svc-checklist svg {
+  color: #12a150;
+  flex: none;
+  margin-top: 2px;
+}
+
+.svc-panel {
+  padding: 28px;
+  border-radius: 20px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+}
+
+.svc-panel h3 {
+  margin: 0 0 18px;
+  font-size: 16px;
+  letter-spacing: -.01em;
+}
+
+/* ---------- Card grids (features / why / use cases) ---------- */
+.svc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.svc-card {
+  padding: 26px 24px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+
+.svc-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+  border-color: #c6d8ee;
+}
+
+.svc-ic {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--blue), var(--navy));
+}
+
+.svc-card h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  letter-spacing: -.01em;
+}
+
+.svc-card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+/* ---------- Dark highlight section ---------- */
+.svc-dark {
+  color: #fff;
+  background: linear-gradient(135deg, #062b59, #04203f);
+}
+
+.svc-dark .section-heading h2,
+.svc-dark h2 {
+  color: #fff;
+}
+
+.svc-dark .section-heading p {
+  color: #b8cae0;
+}
+
+.svc-dark .svc-card {
+  background: rgba(255, 255, 255, .04);
+  border-color: rgba(255, 255, 255, .13);
+}
+
+.svc-dark .svc-card:hover {
+  border-color: rgba(120, 180, 255, .4);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, .3);
+}
+
+.svc-dark .svc-card h3 {
+  color: #fff;
+}
+
+.svc-dark .svc-card p {
+  color: #b8cae0;
+}
+
+.svc-dark .svc-ic {
+  background: linear-gradient(135deg, var(--orange), #ef650b);
+}
+
+/* ---------- Process steps ---------- */
+.svc-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.svc-step {
+  position: relative;
+  padding: 24px 22px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.svc-step-n {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+  font-weight: 800;
+  color: #fff;
+  background: var(--orange);
+}
+
+.svc-step h3 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.svc-step p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* ---------- Coverage band ---------- */
+.svc-coverage .shell {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+  align-items: center;
+  padding: 34px 28px;
+  border-radius: 24px;
+  color: #fff;
+  background: radial-gradient(circle at 85% 18%, #0f4680, #062a55 55%, #04203f);
+}
+
+.svc-coverage h2 {
+  margin: 0 0 10px;
+  color: #fff;
+  font-size: clamp(24px, 3.4vw, 33px);
+  letter-spacing: -.02em;
+}
+
+.svc-coverage p {
+  margin: 0;
+  max-width: 560px;
+  color: #bcd0e8;
+  line-height: 1.7;
+}
+
+.svc-coverage .btn-white {
+  justify-self: start;
+}
+
+/* ---------- Responsive ---------- */
+@media (min-width: 640px) {
+  .svc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .svc-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 760px) {
+  .svc-stats .shell {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (min-width: 820px) {
+  .svc-coverage .shell {
+    grid-template-columns: 1.5fr auto;
+    padding: 46px;
+  }
+}
+
+@media (min-width: 900px) {
+  .svc-hero-inner {
+    grid-template-columns: 1.06fr .94fr;
+    padding: 96px 0 116px;
+  }
+
+  .svc-split {
+    grid-template-columns: 1.08fr .92fr;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 960px) {
+  .svc-grid.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1040px) {
+  .svc-steps {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* ---------- Phone compaction (scoped to service pages) ---------- */
+@media (max-width: 600px) {
+  .svc-page .section {
+    padding: 50px 0;
+  }
+
+  .svc-page .section-heading {
+    margin-bottom: 28px;
+  }
+
+  .svc-page .section h2 {
+    font-size: clamp(25px, 6.6vw, 33px);
+    margin-bottom: 13px;
+  }
+
+  .svc-page .section-heading p,
+  .svc-page .svc-split p,
+  .svc-page .svc-card p {
+    font-size: 14px;
+  }
+
+  .svc-page .page-hero {
+    padding: 58px 0 54px;
+  }
+
+  .svc-page .page-hero h1 {
+    font-size: clamp(30px, 8.4vw, 42px);
+  }
+
+  .svc-hero-inner {
+    padding: 44px 0 52px;
+    gap: 26px;
+  }
+
+  .svc-hero h1 {
+    font-size: clamp(28px, 8.6vw, 40px);
+  }
+
+  .svc-hero-sub {
+    margin-top: 12px;
+    font-size: 15px;
+  }
+
+  .svc-hero-lead {
+    margin-top: 14px;
+    font-size: 14.5px;
+  }
+
+  .svc-badge {
+    padding: 6px 12px;
+    font-size: 10px;
+    letter-spacing: .1em;
+  }
+
+  .svc-trust {
+    gap: 9px 16px;
+    margin-top: 20px;
+  }
+
+  .svc-trust span {
+    font-size: 11px;
+  }
+
+  .svc-hero-actions {
+    gap: 10px;
+    margin-top: 24px;
+    width: 100%;
+  }
+
+  .svc-hero-actions .btn,
+  .svc-hero-actions .svc-ghost-btn {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  .svc-hero-media {
+    aspect-ratio: 16 / 10;
+    border-radius: 18px;
+  }
+
+  .svc-stats {
+    margin-top: -24px;
+  }
+
+  .svc-stat {
+    padding: 15px 8px;
+  }
+
+  .svc-stat b {
+    font-size: 20px;
+  }
+
+  .svc-stat span {
+    font-size: 10.5px;
+  }
+
+  .svc-split {
+    gap: 22px;
+  }
+
+  .svc-split .lead {
+    font-size: 17px;
+  }
+
+  .svc-panel {
+    padding: 22px;
+    border-radius: 16px;
+  }
+
+  .svc-grid,
+  .svc-steps {
+    gap: 12px;
+  }
+
+  .svc-card {
+    padding: 20px 18px;
+    border-radius: 15px;
+  }
+
+  .svc-ic {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 12px;
+    border-radius: 11px;
+  }
+
+  .svc-card h3 {
+    font-size: 16px;
+  }
+
+  .svc-step {
+    padding: 18px;
+  }
+
+  .svc-coverage .shell {
+    padding: 26px 20px;
+    gap: 16px;
+    border-radius: 18px;
+  }
+
+  .svc-coverage h2 {
+    font-size: 22px;
+  }
+
+  .svc-coverage p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .svc-hero h1 {
+    font-size: 27px;
+  }
+
+  .svc-stat b {
+    font-size: 18px;
+  }
+}
