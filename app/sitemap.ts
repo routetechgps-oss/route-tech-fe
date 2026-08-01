@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   return [...routes, ...districtRoutes].map(({ path, priority, changeFrequency }) => ({
-    url: `https://routetech.in${path}`,
+    url: `https://www.routetechgps.com${path}`,
     lastModified: new Date(),
     changeFrequency,
     priority,

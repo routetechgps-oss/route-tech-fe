@@ -259,7 +259,7 @@ export default function MiningGpsPage() {
         provider: {
           "@type": "LocalBusiness",
           name: "Route Tech",
-          url: "https://routetech.in",
+          url: "https://www.routetechgps.com",
           telephone: ["+91-84095-39047", "+91-89359-89871"],
         },
       },
@@ -274,13 +274,13 @@ export default function MiningGpsPage() {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://routetech.in" },
-          { "@type": "ListItem", position: 2, name: "Services", item: "https://routetech.in/services" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.routetechgps.com" },
+          { "@type": "ListItem", position: 2, name: "Services", item: "https://www.routetechgps.com/services" },
           {
             "@type": "ListItem",
             position: 3,
             name: "Mining GPS in Bihar",
-            item: "https://routetech.in/services/mining-gps",
+            item: "https://www.routetechgps.com/services/mining-gps",
           },
         ],
       },

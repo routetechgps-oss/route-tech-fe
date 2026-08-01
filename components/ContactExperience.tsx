@@ -137,8 +137,8 @@ export function ContactExperience() {
                 </address>
               </ContactRow>
               <ContactRow icon={Globe2} title="Website">
-                <a className="font-black text-route-ink hover:text-route-blue" href="https://routetech.in">
-                  www.routetech.in
+                <a className="font-black text-route-ink hover:text-route-blue" href="https://www.routetechgps.com">
+                  www.routetechgps.com
                 </a>
               </ContactRow>
             </div>

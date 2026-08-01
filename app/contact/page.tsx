@@ -34,7 +34,7 @@ const contactPageSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact Route Tech",
-  url: "https://routetech.in/contact",
+  url: "https://www.routetechgps.com/contact",
   description:
     "Contact Route Tech for AIS-140 GPS and mining fleet tracking solutions across Bihar.",
   mainEntity: {

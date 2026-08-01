@@ -136,12 +136,12 @@ export default function AboutPage() {
       {
         "@type": "AboutPage",
         name: "About Route Tech",
-        url: "https://routetech.in/about-us",
+        url: "https://www.routetechgps.com/about-us",
         description: metadata.description,
         about: {
           "@type": "LocalBusiness",
           name: "Route Tech",
-          url: "https://routetech.in",
+          url: "https://www.routetechgps.com",
           telephone: ["+91-84095-39047", "+91-89359-89871"],
           email: "support@routetech.in",
           areaServed: { "@type": "State", name: "Bihar" },
@@ -151,8 +151,8 @@ export default function AboutPage() {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://routetech.in" },
-          { "@type": "ListItem", position: 2, name: "About", item: "https://routetech.in/about-us" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.routetechgps.com" },
+          { "@type": "ListItem", position: 2, name: "About", item: "https://www.routetechgps.com/about-us" },
         ],
       },
     ],

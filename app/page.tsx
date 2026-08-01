@@ -24,7 +24,7 @@ export default function Home() {
     name: "AIS-140 GPS Tracking in Bihar",
     serviceType: "AIS-140 commercial vehicle and mining fleet GPS tracking",
     areaServed: { "@type": "State", name: "Bihar" },
-    provider: { "@type": "LocalBusiness", name: "Route Tech", url: "https://routetech.in", telephone: ["+91-84095-39047", "+91-89359-89871"] },
+    provider: { "@type": "LocalBusiness", name: "Route Tech", url: "https://www.routetechgps.com", telephone: ["+91-84095-39047", "+91-89359-89871"] },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "GPS tracking solutions",

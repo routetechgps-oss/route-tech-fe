@@ -22,7 +22,7 @@ export default function DealerNetworkPage() {
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "WebPage", name: "Route Tech Dealer Network in Bihar", url: "https://routetech.in/dealer-network", description: metadata.description, about: { "@type": "Service", name: "GPS dealer and installation network in Bihar", areaServed: { "@type": "State", name: "Bihar" } } },
+      { "@type": "WebPage", name: "Route Tech Dealer Network in Bihar", url: "https://www.routetechgps.com/dealer-network", description: metadata.description, about: { "@type": "Service", name: "GPS dealer and installation network in Bihar", areaServed: { "@type": "State", name: "Bihar" } } },
       {
         "@type": "ItemList",
         name: "Bihar districts served by the Route Tech dealer network",
@@ -31,7 +31,7 @@ export default function DealerNetworkPage() {
           "@type": "ListItem",
           position: index + 1,
           name,
-          url: `https://routetech.in${districtCoveragePath(name)}`,
+          url: `https://www.routetechgps.com${districtCoveragePath(name)}`,
         })),
       },
     ],

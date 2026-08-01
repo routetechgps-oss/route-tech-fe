@@ -160,25 +160,25 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
         provider: {
           "@type": "LocalBusiness",
           name: "Route Tech",
-          url: "https://routetech.in",
+          url: "https://www.routetechgps.com",
           telephone: ["+91-84095-39047", "+91-89359-89871"],
         },
       },
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://routetech.in" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.routetechgps.com" },
           {
             "@type": "ListItem",
             position: 2,
             name: "Dealer Network",
-            item: "https://routetech.in/dealer-network",
+            item: "https://www.routetechgps.com/dealer-network",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: `AIS-140 GPS Solution in ${district}`,
-            item: `https://routetech.in${canonicalPath}`,
+            item: `https://www.routetechgps.com${canonicalPath}`,
           },
         ],
       },
@@ -424,4 +424,3 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
     </div>
   );
 }
-
