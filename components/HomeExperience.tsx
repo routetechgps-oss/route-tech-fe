@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { TrackingScene } from "./tracking-3d/TrackingScene";
 import {
   ArrowRight,
   Bus,
@@ -245,19 +246,7 @@ export function HomeExperience() {
 
       <section id="mobile-tracking" className="scroll-mt-6 overflow-hidden bg-route-navy py-16 text-white sm:py-20">
         <div className="mx-auto grid w-[calc(100%_-_32px)] max-w-[1180px] items-center gap-9 lg:grid-cols-[1.05fr_.95fr] lg:gap-16">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/15 bg-blue-950 shadow-[0_24px_60px_rgba(0,0,0,.28)]">
-            <Image
-              src="/images/route-tech/home-mobile-tracking.jpg"
-              alt="Commercial vehicle owner tracking a truck live on a mobile phone in Bihar"
-              fill
-              unoptimized
-              sizes="(max-width: 1024px) 100vw, 52vw"
-              className="object-cover"
-            />
-            <span className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[12px] font-black uppercase tracking-[.12em] text-route-blue shadow-lg">
-              <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-emerald-500" /> Live tracking
-            </span>
-          </div>
+          <TrackingScene />
 
           <div>
             <span className="mb-3 inline-flex items-center gap-2 text-[12px] font-black uppercase tracking-[.16em] text-orange-400">
