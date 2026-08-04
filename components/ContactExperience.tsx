@@ -22,12 +22,9 @@ import {
   Wrench,
 } from "lucide-react";
 
-const phone1Display = "+91 84095 39047";
-const phone1Href = "tel:+918409539047";
-const phone2Display = "+91 89359 89871";
-const phone2Href = "tel:+918935989871";
-const whatsappHref =
-  "https://wa.me/918409539047?text=Hello%20Route%20Tech%2C%20I%20need%20help%20with%20a%20GPS%20solution.";
+const primaryPhoneDisplay = "+91 89359 89871";
+const primaryPhoneHref = "tel:+918935989871";
+const whatsappHref = "https://wa.me/918935989871";
 
 const heroPromises = [
   { label: "AIS140 Certified", icon: ShieldCheck },
@@ -37,7 +34,7 @@ const heroPromises = [
 ];
 
 const branches = [
-  { district: "Patna (Head Office)", address: "Patna, Bihar – 800001", slug: "patna" },
+  { district: "Patna (Head Office)", address: "East Lakshmi Nagar, Ramkrishan Nagar, Patna, Bihar – 800027", slug: "patna" },
   { district: "Gaya", address: "Gaya, Bihar – 823001", slug: "gaya" },
   { district: "Muzaffarpur", address: "Muzaffarpur, Bihar – 842001", slug: "muzaffarpur" },
   { district: "Bhagalpur", address: "Bhagalpur, Bihar – 812001", slug: "bhagalpur" },
@@ -105,11 +102,8 @@ export function ContactExperience() {
             <SectionTitle>Get in Touch</SectionTitle>
             <div className="divide-y divide-slate-200">
               <ContactRow icon={Phone} title="Call Us">
-                <a className="block font-black text-route-ink hover:text-route-blue" href={phone1Href}>
-                  {phone1Display}
-                </a>
-                <a className="block font-black text-route-ink hover:text-route-blue" href={phone2Href}>
-                  {phone2Display}
+                <a className="block font-black text-route-ink hover:text-route-blue" href={primaryPhoneHref}>
+                  {primaryPhoneDisplay}
                 </a>
                 <span className="text-[12px] text-slate-500">(10:00 AM - 7:00 PM)</span>
               </ContactRow>
@@ -131,9 +125,9 @@ export function ContactExperience() {
                 <address className="not-italic font-medium leading-6 text-route-ink">
                   Route Tech Private Limited
                   <br />
-                  Patna, Bihar – 800001
+                  East Lakshmi Nagar, Ramkrishan Nagar
                   <br />
-                  India
+                  Patna, Bihar – 800027, India
                 </address>
               </ContactRow>
               <ContactRow icon={Globe2} title="Website">
@@ -247,11 +241,8 @@ export function ContactExperience() {
                 </span>
                 <span>
                   <small className="block text-[12px] font-black text-route-navy">Call Now</small>
-                  <a href={phone1Href} className="block whitespace-nowrap text-[18px] font-black text-route-orange hover:underline">
-                    {phone1Display}
-                  </a>
-                  <a href={phone2Href} className="block whitespace-nowrap text-[18px] font-black text-route-orange hover:underline">
-                    {phone2Display}
+                  <a href={primaryPhoneHref} className="block whitespace-nowrap text-[18px] font-black text-route-orange hover:underline">
+                    {primaryPhoneDisplay}
                   </a>
                   <em className="mt-1 inline-flex rounded-full bg-blue-50 px-2.5 py-1 text-[10px] font-black not-italic text-route-blue">
                     24x7 Support Available
@@ -270,7 +261,7 @@ export function ContactExperience() {
                 <span>
                   <small className="block text-[12px] font-black text-green-700">Chat On WhatsApp</small>
                   <strong className="block whitespace-nowrap text-[18px] font-black text-route-ink">
-                    {phone1Display}
+                    {primaryPhoneDisplay}
                   </strong>
                 </span>
               </a>
@@ -285,15 +276,15 @@ export function ContactExperience() {
             <SectionTitle>Our Location</SectionTitle>
             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-100">
               <iframe
-                title="Route Tech office location in Patna, Bihar"
-                src="https://www.google.com/maps?q=Patna%2C%20Bihar%20800001&z=12&output=embed"
+                title="Route Tech office at East Lakshmi Nagar, Ramkrishan Nagar, Patna, Bihar"
+                src="https://www.google.com/maps?q=East%20Lakshmi%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800027&z=15&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="h-[320px] w-full border-0 sm:h-[360px]"
               />
             </div>
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Patna%2C+Bihar+800001"
+              href="https://www.google.com/maps/dir/?api=1&destination=East+Lakshmi+Nagar%2C+Ramkrishan+Nagar%2C+Patna%2C+Bihar+800027"
               target="_blank"
               rel="noreferrer"
               className="mt-4 inline-flex min-h-[46px] items-center gap-2 rounded-xl bg-route-blue px-5 text-[13px] font-black text-white transition hover:bg-blue-700"
@@ -356,7 +347,7 @@ export function ContactExperience() {
               Request a Quote <ChevronRight size={18} aria-hidden="true" />
             </a>
             <a
-              href={phone1Href}
+              href={primaryPhoneHref}
               className="inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl border border-white/70 px-6 text-[14px] font-black text-white transition hover:bg-white hover:text-route-navy"
             >
               Call Now <Phone size={17} aria-hidden="true" />

@@ -4,7 +4,7 @@ import { ContactExperience } from "@/components/ContactExperience";
 export const metadata: Metadata = {
   title: "Contact Route Tech | AIS-140 GPS Support in Bihar",
   description:
-    "Contact Route Tech for AIS-140 GPS installation, NIC/Vahan integration, mining GPS and commercial fleet tracking support across Bihar. Call +91 84095 39047 or +91 89359 89871.",
+    "Contact Route Tech for AIS-140 GPS installation, NIC/Vahan integration, mining GPS and commercial fleet tracking support across Bihar. Call +91 89359 89871.",
   keywords: [
     "contact Route Tech",
     "AIS-140 GPS support Bihar",
@@ -40,13 +40,14 @@ const contactPageSchema = {
   mainEntity: {
     "@type": "LocalBusiness",
     name: "Route Tech",
-    telephone: ["+91-84095-39047", "+91-89359-89871"],
+    telephone: "+91-89359-89871",
     email: "support@routetech.in",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "East Lakshmi Nagar, Ramkrishan Nagar",
       addressLocality: "Patna",
       addressRegion: "Bihar",
-      postalCode: "800001",
+      postalCode: "800027",
       addressCountry: "IN",
     },
     areaServed: {

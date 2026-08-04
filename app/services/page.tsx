@@ -170,7 +170,7 @@ export default function Services() {
 
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
-                href="tel:+918409539047"
+                href="tel:+918935989871"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl bg-route-orange px-7 text-[17px] font-extrabold text-white shadow-[0_16px_34px_rgba(249,115,22,.28)] transition hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300/40"
               >
                 <Phone size={22} fill="currentColor" /> Call for help
@@ -321,7 +321,7 @@ export default function Services() {
               <p className="m-0 text-[13px] font-semibold text-blue-200">Tell us your vehicle. We will explain the right option.</p>
             </div>
             <a
-              href="tel:+918409539047"
+              href="tel:+918935989871"
               className="inline-flex min-h-[50px] shrink-0 items-center justify-center gap-2 rounded-xl bg-route-orange px-5 text-[14px] font-extrabold text-white"
             >
               <Phone size={18} fill="currentColor" /> Call Route Tech
@@ -376,9 +376,6 @@ export default function Services() {
               Quick answers for vehicle owners and fleet operators across Bihar.
             </p>
             <div className="flex flex-col gap-2">
-              <a href="tel:+918409539047" className="inline-flex items-center gap-2 text-[15px] font-black text-route-orange">
-                Call +91 84095 39047 <ArrowRight size={18} />
-              </a>
               <a href="tel:+918935989871" className="inline-flex items-center gap-2 text-[15px] font-black text-route-orange">
                 Call +91 89359 89871 <ArrowRight size={18} />
               </a>
@@ -412,7 +409,7 @@ export default function Services() {
           </div>
           <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
             <a
-              href="tel:+918409539047"
+              href="tel:+918935989871"
               className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl bg-route-orange px-6 text-[16px] font-extrabold text-white"
             >
               <Phone size={21} fill="currentColor" /> Call now

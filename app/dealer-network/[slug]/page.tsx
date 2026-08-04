@@ -161,7 +161,7 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
           "@type": "LocalBusiness",
           name: "Route Tech",
           url: "https://www.routetechgps.com",
-          telephone: ["+91-84095-39047", "+91-89359-89871"],
+          telephone: "+91-89359-89871",
         },
       },
       {
@@ -241,7 +241,7 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
                 Get a Free Quote <ArrowRight size={19} />
               </Link>
               <a
-                href="tel:+918409539047"
+                href="tel:+918935989871"
                 className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl border-2 border-route-blue bg-white px-7 text-[15px] font-extrabold text-route-blue"
               >
                 Call Now <Phone size={19} fill="currentColor" />
@@ -413,7 +413,7 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
             <Link href="/contact" className="inline-flex min-h-[54px] items-center justify-center gap-3 rounded-xl bg-route-orange px-7 text-[15px] font-extrabold text-white">
               Get a Quote <ArrowRight size={18} />
             </Link>
-            <a href="tel:+918409539047" className="inline-flex min-h-[54px] items-center justify-center gap-3 rounded-xl border border-white/35 px-7 text-[15px] font-extrabold text-white">
+            <a href="tel:+918935989871" className="inline-flex min-h-[54px] items-center justify-center gap-3 rounded-xl border border-white/35 px-7 text-[15px] font-extrabold text-white">
               Call Now <Phone size={18} fill="currentColor" />
             </a>
           </div>

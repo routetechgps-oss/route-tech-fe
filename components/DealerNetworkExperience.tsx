@@ -141,7 +141,7 @@ export function DealerNetworkExperience() {
               <small>Selected district</small>
               <h3>{selectedDistrict}</h3>
               <p>Connected to Route Tech’s Bihar dealer and installation support network.</p>
-              <a href="tel:+918409539047">Check local availability <ArrowRight size={17} /></a>
+              <a href="tel:+918935989871">Check local availability <ArrowRight size={17} /></a>
               <div><i /> Coverage active</div>
             </aside>
             <div className="district-list" aria-live="polite">
@@ -191,7 +191,7 @@ export function DealerNetworkExperience() {
     <section className="dealer-join" id="join-network">
       <div className="shell dealer-join-card" data-dealer-reveal>
         <div><span className="dealer-kicker"><i /> Your district. Our platform. One route forward.</span><h2>Build the next trusted GPS destination in your district.</h2><p>Speak with Route Tech about joining Bihar’s growing AIS-140 and commercial GPS dealer network.</p></div>
-        <div className="dealer-join-actions"><Link href="/contact" className="btn dealer-primary">Apply for dealership <ArrowRight size={18} /></Link><a href="tel:+918409539047">Call +91 84095 39047</a><a href="tel:+918935989871">Call +91 89359 89871</a></div>
+        <div className="dealer-join-actions"><Link href="/contact" className="btn dealer-primary">Apply for dealership <ArrowRight size={18} /></Link><a href="tel:+918935989871">Call +91 89359 89871</a></div>
         <Sparkles className="dealer-join-spark" size={92} aria-hidden="true" />
       </div>
     </section>

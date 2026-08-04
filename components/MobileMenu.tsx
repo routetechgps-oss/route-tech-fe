@@ -47,7 +47,7 @@ export function MobileMenu() {
     </button>
     {open && <div className="mobile-panel" id="mobile-nav">
       {links.map(([label, href]) => <Link key={href} href={href} onClick={() => setOpen(false)}>{label}</Link>)}
-      <a className="btn" href="tel:+918409539047" onClick={() => setOpen(false)}>Request installation</a>
+      <a className="btn" href="tel:+918935989871" onClick={() => setOpen(false)}>Request installation</a>
     </div>}
   </div>;
 }

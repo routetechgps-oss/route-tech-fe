@@ -260,7 +260,7 @@ export default function MiningGpsPage() {
           "@type": "LocalBusiness",
           name: "Route Tech",
           url: "https://www.routetechgps.com",
-          telephone: ["+91-84095-39047", "+91-89359-89871"],
+          telephone: "+91-89359-89871",
         },
       },
       {
@@ -343,7 +343,7 @@ export default function MiningGpsPage() {
 
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
-                href="tel:+918409539047"
+                href="tel:+918935989871"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl bg-route-orange px-7 text-[16px] font-extrabold text-white shadow-[0_15px_34px_rgba(249,115,22,.28)] transition hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-200"
               >
                 <Phone size={21} fill="currentColor" /> Call for installation
@@ -517,12 +517,6 @@ export default function MiningGpsPage() {
           </div>
           <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
             <a
-              href="tel:+918409539047"
-              className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl bg-route-orange px-6 text-[16px] font-extrabold text-white"
-            >
-              <Phone size={21} fill="currentColor" /> Call +91 84095 39047
-            </a>
-            <a
               href="tel:+918935989871"
               className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl bg-route-orange px-6 text-[16px] font-extrabold text-white"
             >
@@ -574,13 +568,12 @@ export default function MiningGpsPage() {
               Tell us your vehicles, work site and district. We will explain the device, installation and tracking setup.
             </p>
             <a
-              href="tel:+918409539047"
+              href="tel:+918935989871"
               className="inline-flex min-h-[56px] w-full items-center justify-center gap-3 rounded-xl bg-route-orange px-5 text-[16px] font-extrabold text-white shadow-[0_14px_30px_rgba(249,115,22,.24)]"
             >
               <Phone size={21} fill="currentColor" /> Call now
             </a>
-            <p className="mb-0 mt-4 text-[18px] font-black text-route-blue">+91 84095 39047</p>
-            <p className="mb-0 mt-1 text-[18px] font-black text-route-blue">+91 89359 89871</p>
+            <p className="mb-0 mt-4 text-[18px] font-black text-route-blue">+91 89359 89871</p>
           </aside>
         </div>
       </section>

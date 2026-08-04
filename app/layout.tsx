@@ -19,6 +19,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const schema = { "@context": "https://schema.org", "@type": "LocalBusiness", name: "Route Tech", url: "https://www.routetechgps.com", logo: "https://www.routetechgps.com/brand-final/route-tech-client-final.png", telephone: ["+91-84095-39047", "+91-89359-89871"], email: "support@routetech.in", address: { "@type": "PostalAddress", addressLocality: "Patna", addressRegion: "Bihar", postalCode: "800001", addressCountry: "IN" }, areaServed: { "@type": "State", name: "Bihar" }, description: "AIS-140 GPS and mining fleet tracking solutions in Bihar." };
+  const schema = { "@context": "https://schema.org", "@type": "LocalBusiness", name: "Route Tech", url: "https://www.routetechgps.com", logo: "https://www.routetechgps.com/brand-final/route-tech-client-final.png", telephone: "+91-89359-89871", email: "support@routetech.in", address: { "@type": "PostalAddress", streetAddress: "East Lakshmi Nagar, Ramkrishan Nagar", addressLocality: "Patna", addressRegion: "Bihar", postalCode: "800027", addressCountry: "IN" }, areaServed: { "@type": "State", name: "Bihar" }, description: "AIS-140 GPS and mining fleet tracking solutions in Bihar." };
   return <html lang="en" data-scroll-behavior="smooth"><body><Header /><main>{children}</main><Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} /></body></html>;
 }

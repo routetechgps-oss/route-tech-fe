@@ -296,7 +296,7 @@ export default function Ais140GpsPage() {
           "@type": "LocalBusiness",
           name: "Route Tech",
           url: "https://www.routetechgps.com",
-          telephone: ["+91-84095-39047", "+91-89359-89871"],
+          telephone: "+91-89359-89871",
         },
       },
       {
@@ -643,13 +643,12 @@ export default function Ais140GpsPage() {
               Call us now for device, installation and registration support.
             </p>
             <a
-              href="tel:+918409539047"
+              href="tel:+918935989871"
               className="inline-flex min-h-[56px] w-full items-center justify-center gap-3 rounded-xl bg-route-orange px-5 text-[16px] font-extrabold text-white shadow-[0_14px_30px_rgba(249,115,22,.24)]"
             >
               <Phone size={21} fill="currentColor" /> Call now
             </a>
-            <p className="mb-0 mt-4 text-[18px] font-black text-route-blue">+91 84095 39047</p>
-            <p className="mb-0 mt-1 text-[18px] font-black text-route-blue">+91 89359 89871</p>
+            <p className="mb-0 mt-4 text-[18px] font-black text-route-blue">+91 89359 89871</p>
           </aside>
         </div>
       </section>

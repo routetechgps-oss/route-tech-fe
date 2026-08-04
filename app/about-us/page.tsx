@@ -142,10 +142,10 @@ export default function AboutPage() {
           "@type": "LocalBusiness",
           name: "Route Tech",
           url: "https://www.routetechgps.com",
-          telephone: ["+91-84095-39047", "+91-89359-89871"],
+          telephone: "+91-89359-89871",
           email: "support@routetech.in",
           areaServed: { "@type": "State", name: "Bihar" },
-          address: { "@type": "PostalAddress", addressLocality: "Patna", addressRegion: "Bihar", postalCode: "800001", addressCountry: "IN" },
+          address: { "@type": "PostalAddress", streetAddress: "East Lakshmi Nagar, Ramkrishan Nagar", addressLocality: "Patna", addressRegion: "Bihar", postalCode: "800027", addressCountry: "IN" },
         },
       },
       {
@@ -370,12 +370,6 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">
-            <a
-              href="tel:+918409539047"
-              className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl bg-route-orange px-6 text-[15px] font-extrabold text-white shadow-[0_14px_30px_rgba(249,115,22,.24)]"
-            >
-              <Phone size={19} fill="currentColor" /> +91 84095 39047
-            </a>
             <a
               href="tel:+918935989871"
               className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl bg-route-orange px-6 text-[15px] font-extrabold text-white shadow-[0_14px_30px_rgba(249,115,22,.24)]"
