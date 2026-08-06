@@ -271,12 +271,9 @@ export function HomeExperience() {
               <Navigation size={18} /> Very easy
             </span>
             <h2 className="mb-2 text-[34px] font-black tracking-[-.04em] text-route-ink sm:text-[44px]">
-              Only 3 easy steps
+              Get AIS-140 VLTD GPS Installed in 3 Easy Steps
             </h2>
-            <div className="mt-3 flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-3">
-              <p className="m-0 text-[14px] font-bold text-slate-600 sm:text-[16px]">
-                Get AIS-140 VLTD GPS Installed in 3 Easy Steps
-              </p>
+            <div className="mt-3 flex items-center justify-center">
               <span className="rounded-full border border-orange-200 bg-orange-50 px-3 py-1.5 text-[10px] font-black uppercase tracking-[.08em] text-orange-700 sm:text-[11px]">
                 Quick RTO Clearance Process
               </span>
@@ -391,12 +388,6 @@ export function HomeExperience() {
                 sizes="(max-width: 1024px) 100vw, 38vw"
                 className="object-contain"
               />
-            </div>
-            <div className="mt-4 text-center">
-              <h3 className="text-[18px] font-black text-route-ink">AIS-140 GPS Distributorship</h3>
-              <Link href="/dealer-network" className="mt-1 inline-flex items-center gap-2 text-[14px] font-extrabold text-route-blue transition hover:text-route-orange">
-                Become a VLTD Dealer in Bihar <ArrowRight size={17} />
-              </Link>
             </div>
           </div>
 

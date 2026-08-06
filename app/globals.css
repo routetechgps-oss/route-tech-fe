@@ -1019,8 +1019,8 @@ h1 em {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1.6fr .65fr 1fr 1.2fr;
-    gap: 60px
+    grid-template-columns: 1.45fr .65fr 1fr 1.2fr 1.25fr;
+    gap: 36px
 }
 
 .footer-brand img {
