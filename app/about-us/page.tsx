@@ -143,7 +143,7 @@ export default function AboutPage() {
           name: "Route Tech",
           url: "https://www.routetechgps.com",
           telephone: "+91-89359-89871",
-          email: "support@routetech.in",
+          email: "routetechgps@gmail.com",
           areaServed: { "@type": "State", name: "Bihar" },
           address: { "@type": "PostalAddress", streetAddress: "East Lakshmi Nagar, Ramkrishan Nagar", addressLocality: "Patna", addressRegion: "Bihar", postalCode: "800027", addressCountry: "IN" },
         },

@@ -143,8 +143,10 @@ export function HomeExperience() {
                 </span>
               </div>
               <h1 className="mb-3 text-[34px] font-black leading-[1.02] tracking-[-.045em] text-route-ink sm:mb-4 sm:text-[46px] lg:text-[64px]">
-                Best AIS 140 GPS Tracker{" "}
-                <span className="block text-route-blue">In Bihar</span>
+                Best AIS 140 GPS
+                <span className="block whitespace-nowrap">
+                  Tracker <span className="text-route-blue">In Bihar</span>
+                </span>
               </h1>
               <p className="mb-4 max-w-[530px] text-[14px] font-semibold leading-6 text-slate-600 sm:mb-6 sm:text-[17px] sm:leading-7 lg:mb-7 lg:text-[19px]">
                 Government Approved. Complete Compliance. Complete Safety.
@@ -220,11 +222,8 @@ export function HomeExperience() {
               <Truck size={19} /> Choose your vehicle
             </span>
             <h2 className="mb-3 text-[31px] font-black leading-tight tracking-[-.04em] text-route-ink sm:text-[44px]">
-              Which vehicle needs GPS?
-            </h2>
-            <p className="mx-auto mb-1 max-w-[760px] text-[14px] font-extrabold leading-5 text-route-ink sm:text-[17px] sm:leading-6">
               Select Your Vehicle Category for AIS-140 &amp; VLTD GPS Tracking
-            </p>
+            </h2>
             <p className="mx-auto max-w-[760px] text-[13px] font-semibold leading-5 text-slate-600 sm:text-[15px] sm:leading-6">
               Government Approved GPS Solutions for Commercial &amp; Mining Fleet in Bihar.
             </p>

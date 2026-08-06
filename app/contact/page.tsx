@@ -41,7 +41,7 @@ const contactPageSchema = {
     "@type": "LocalBusiness",
     name: "Route Tech",
     telephone: "+91-89359-89871",
-    email: "support@routetech.in",
+    email: "routetechgps@gmail.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "East Lakshmi Nagar, Ramkrishan Nagar",
