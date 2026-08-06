@@ -24,7 +24,7 @@ import {
 
 const primaryPhoneDisplay = "+91 89359 89871";
 const primaryPhoneHref = "tel:+918935989871";
-const secondaryPhoneDisplay = "+91 84095 39047";
+const additionalPhoneDisplay = "+91 84095 39047";
 const whatsappHref = "https://wa.me/918935989871";
 
 const heroPromises = [
@@ -107,16 +107,16 @@ export function ContactExperience() {
                   {primaryPhoneDisplay}
                 </a>
                 <span className="block text-[13px] font-bold text-slate-500">
-                  Secondary: {secondaryPhoneDisplay}
+                  {additionalPhoneDisplay}
                 </span>
                 <span className="text-[12px] text-slate-500">(10:00 AM - 7:00 PM)</span>
               </ContactRow>
               <ContactRow icon={Mail} title="Email Us">
                 <a
                   className="block font-bold text-route-ink hover:text-route-blue"
-                  href="mailto:support@routetech.in"
+                  href="mailto:routetechgps@gmail.com"
                 >
-                  support@routetech.in
+                  routetechgps@gmail.com
                 </a>
                 <a
                   className="block font-bold text-route-ink hover:text-route-blue"
@@ -249,7 +249,7 @@ export function ContactExperience() {
                     {primaryPhoneDisplay}
                   </a>
                   <span className="block whitespace-nowrap text-[12px] font-bold text-slate-500">
-                    Secondary: {secondaryPhoneDisplay}
+                    {additionalPhoneDisplay}
                   </span>
                   <em className="mt-1 inline-flex rounded-full bg-blue-50 px-2.5 py-1 text-[10px] font-black not-italic text-route-blue">
                     24x7 Support Available
