@@ -220,7 +220,7 @@ export default function Services() {
               Govt Approved AIS140 VLTD & Mining GPS Solutions In Bihar
             </h2>
             <p className="text-[16px] font-semibold leading-7 text-slate-600">
-              Choose RTO-Compliant VLTD GPS Teackers For Commercial & Heavy Mining Fleets.
+              Choose RTO-Compliant VLTD GPS Trackers For Commercial & Heavy Mining Fleets.
             </p>
           </header>
 
