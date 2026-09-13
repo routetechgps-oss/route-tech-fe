@@ -161,11 +161,11 @@ export default function Services() {
             </div>
 
             <h1 className="mb-5 text-[42px] font-black leading-[1.03] tracking-[-.05em] text-white sm:text-[58px] lg:text-[72px]">
-              Choose the right GPS
-              <span className="block text-orange-400">for your vehicle</span>
+              AIS-140 VLTD GPS Tracking
+              <span className="block text-orange-400">Solutions In Bihar</span>
             </h1>
             <p className="mb-8 max-w-[610px] text-[17px] font-semibold leading-7 text-blue-100 sm:text-[19px]">
-              Specialized AIS-140 GPS for commercial vehicles and Mining GPS for tippers and heavy fleets across Bihar.
+              Get MoRTH & RTO Approved AIS-140 VLTD GPS Devices With Emergency Panic Buttons. Fast Doorstep Installation For Trucks, Taxis, School Busses, Tippers & Mining Hayvas Across Patna and All 38 Districts Of Bihar
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row">
