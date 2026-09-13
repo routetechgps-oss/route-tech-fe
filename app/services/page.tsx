@@ -49,26 +49,26 @@ const solutions = [
     href: "/services/ais-140-gps-solutions-in-bihar",
     number: "01",
     eyebrow: "For commercial vehicles",
-    title: "AIS-140 GPS in Bihar",
+    title: "AIS140 VLTD Gps Tracker In Bihar",
     description:
-      "Certified GPS for trucks, buses, school vehicles, ambulances, taxis and eligible passenger fleets.",
+      "MoRTH & RTO Approved AIS140 VLTD Device For Trucks, School Busses, Taxis, Cabs, Ambulances & Commercial Fleets Across Patna & Bihar.",
     image: "/images/route-tech/home-installation.webp",
-    alt: "Technician installing an AIS-140 GPS device inside a commercial vehicle in Bihar",
-    points: ["AIS-140 certified device", "NIC and Vahan integration", "Panic-button support", "Live mobile tracking"],
-    cta: "View AIS-140 service",
+    alt: "Technician installing an AIS-140 VLTD GPS device inside a commercial vehicle in Bihar",
+    points: ["AIS-140 certified device", "Vahan Portal & NIC Instant Sync", "Panic-button support", "24*7 Mobile & Desktop Tracking"],
+    cta: "Explore AIS140 VLTD Packages",
     accent: "blue",
   },
   {
     href: "/services/mining-gps",
     number: "02",
     eyebrow: "For mining vehicles",
-    title: "Mining GPS in Bihar",
+    title: "Mining GPS & E- Challan Solution In Bihar",
     description:
-      "Rugged tracking for tippers, dumpers, Hyvas and heavy vehicles working across mines and material routes.",
+      "Rugged Gps Tracking For Tippers, Hyvas & Dumpers With Mining Royalty & Ghat Clearance Support Across Bihar & Jharkhand Routes.",
     image: "/images/route-tech/home-mining-story.webp",
     alt: "Heavy mining tipper operating with GPS tracking in a quarry",
-    points: ["Rugged GPS hardware", "Operating-zone geofences", "Trip and route history", "Multi-vehicle tracking"],
-    cta: "View mining GPS service",
+    points: ["Mining E-Challan & Royality Ready", "Send & Mineral Ghaat Geaofencing", "Heavy Duty IP68 Waterproof Hardware", "Trip Fuel & Stoppage Reports"],
+    cta: "Explore Mining GPS Solutions",
     accent: "orange",
   },
 ];
@@ -173,13 +173,13 @@ export default function Services() {
                 href="tel:+918935989871"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl bg-route-orange px-7 text-[17px] font-extrabold text-white shadow-[0_16px_34px_rgba(249,115,22,.28)] transition hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300/40"
               >
-                <Phone size={22} fill="currentColor" /> Call for help
+                <Phone size={22} fill="currentColor" /> Get Free Price Quate
               </a>
               <a
                 href="#gps-solutions"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl border border-white/30 bg-white/10 px-7 text-[16px] font-extrabold text-white backdrop-blur transition hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20"
               >
-                Explore GPS services <ArrowRight size={20} />
+                View RTO Packages <ArrowRight size={20} />
               </a>
             </div>
           </div>
@@ -189,10 +189,10 @@ export default function Services() {
       <section aria-label="Route Tech service benefits" className="bg-route-navy text-white">
         <div className="mx-auto grid w-[calc(100%_-_32px)] max-w-[1180px] grid-cols-2 py-3 sm:grid-cols-4 lg:py-0">
           {[
-            { icon: ShieldCheck, title: "Certified", label: "AIS-140 devices" },
-            { icon: Wrench, title: "Installed", label: "Professional fitment" },
-            { icon: Smartphone, title: "Track live", label: "See it on mobile" },
-            { icon: Headphones, title: "Local help", label: "Bihar-based support" },
+            { icon: ShieldCheck, title: "Government Approved", label: "All Device are AIS140 Certifed and govt approved VLTD." },
+            { icon: Wrench, title: "Fast Installation", label: "Quick installation accros Bihar in 24-45 Hours." },
+            { icon: Smartphone, title: "Track live", label: "Vehicle is now live and ready for 24*7 tracking." },
+            { icon: Headphones, title: "24*7 Support", label: "Our Support Team is always available for your help." },
           ].map(({ icon: Icon, title, label }) => (
             <article
               key={title}
@@ -217,10 +217,10 @@ export default function Services() {
               <Truck size={18} /> Choose your GPS
             </span>
             <h2 className="mb-3 text-[34px] font-black leading-tight tracking-[-.04em] text-route-ink sm:text-[48px]">
-              GPS solutions built for Bihar
+              Govt Approved AIS140 VLTD & Mining GPS Solutions In Bihar
             </h2>
             <p className="text-[16px] font-semibold leading-7 text-slate-600">
-              Choose the service that matches your vehicle and the work it does.
+              Choose RTO-Compliant VLTD GPS Teackers For Commercial & Heavy Mining Fleets.
             </p>
           </header>
 
