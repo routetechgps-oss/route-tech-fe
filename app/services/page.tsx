@@ -153,10 +153,10 @@ export default function Services() {
           <div className="max-w-[680px]">
             <div className="mb-5 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-[12px] font-black uppercase tracking-[.13em] text-blue-100 backdrop-blur">
-                <MapPin size={16} /> GPS services in Bihar
+                <MapPin size={16} /> No.1 AIS140 VLTD GPS IN PATNA & BIHAR
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-orange-300/30 bg-orange-500/15 px-4 py-2 text-[12px] font-black uppercase tracking-[.1em] text-orange-300 backdrop-blur">
-                <ShieldCheck size={16} /> All 38 districts
+                <ShieldCheck size={16} /> RTO APPROVED GPS
               </span>
             </div>
 
