@@ -394,7 +394,7 @@ export default function Ais140GpsPage() {
       </section>
 
       <section aria-label="AIS-140 service assurance" className="bg-route-navy text-white">
-        <div className="mx-auto grid w-[calc(100%_-_24px)] max-w-[1180px] grid-cols-1 sm:w-[calc(100%_-_40px)] sm:grid-cols-3">
+        <div className="mx-auto grid w-[calc(100%_-_24px)] max-w-[1180px] grid-cols-1 sm:w-[calc(100%_-_40px)] sm:grid-cols-4">
           {[
             { icon: ShieldCheck, title: "AIS140 VLTD", text: "MoRTH & RTO Approved" },
             { icon: FileCheck2, title: "NIC & Vahan", text: "Instant Portal Sync" },
