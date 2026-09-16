@@ -67,38 +67,38 @@ export const metadata: Metadata = {
 const features: Array<{ icon: LucideIcon; title: string; text: string; tone: "blue" | "orange" }> = [
   {
     icon: MapPin,
-    title: "Live fleet location",
-    text: "See every tipper, dumper and machine on one clear live map.",
+    title: "Live Mining Fleet Tracking",
+    text: "Track every tipper, dumper, Hyva, and Poclain excavator on a single live satellite map with 10-second updates.",
     tone: "blue",
   },
   {
     icon: MapPinned,
-    title: "Zone geofence alerts",
-    text: "Know when a vehicle enters or leaves your mine, quarry or work zone.",
+    title: "Balu Ghat & Quarry Geofencing",
+    text: "Get instant alerts when trucks enter or exit legal Balu ghat boundaries, stone quarries, and unauthorized loading zones.",
     tone: "orange",
   },
   {
     icon: Route,
-    title: "Trip and route history",
-    text: "Review completed routes and material runs for every vehicle.",
+    title: "ISTP & Royalty Route Playback",
+    text: "Verify Interstate Transit Permits (ISTP) and material transport routes with 90-day complete playback history.",
     tone: "blue",
   },
   {
     icon: Activity,
-    title: "Movement and idle alerts",
-    text: "Spot long stops, unexpected movement and idle vehicles quickly.",
+    title: "Fuel Theft & Engine Idle Alerts",
+    text: "Stop fuel theft and track unauthorized stoppage or engine idling in remote quarry locations across Bihar.",
     tone: "orange",
   },
   {
     icon: CircleGauge,
-    title: "Speed monitoring",
-    text: "See overspeed events and encourage safer driving on difficult roads.",
+    title: "Overspeed & Safety Monitoring",
+    text: "Prevent accidents and overspeed fines on mining haul roads with automated real-time alerts.",
     tone: "blue",
   },
   {
     icon: MonitorSmartphone,
-    title: "One fleet dashboard",
-    text: "Track your complete operation from mobile or computer, day and night.",
+    title: "Khanan Soft & Vahan Sync Dashboard",
+    text: "Manage your entire mineral transport operation from mobile or web app with instant compliance reporting.",
     tone: "orange",
   },
 ];
@@ -318,10 +318,10 @@ export default function MiningGpsPage() {
               </span>
             </div>
 
-            <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
-              Best Mining (Khanan)
-              <span className="block text-route-orange">Gps Tracker in Bihar</span>
-            </h1>
+             <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
+                Best Mining (Khanan) GPS Tracker
+              <span className="block text-route-orange">in Bihar</span>
+              </h1>
             <p className="mb-3 text-[20px] font-black leading-7 text-route-navy sm:text-[24px]">
               See every vehicle. Control every route.
             </p>
@@ -362,10 +362,10 @@ export default function MiningGpsPage() {
       <section aria-label="Mining GPS service assurance" className="bg-route-navy text-white">
         <div className="mx-auto grid w-[calc(100%_-_24px)] max-w-[1180px] grid-cols-2 sm:w-[calc(100%_-_40px)] lg:grid-cols-4">
           {[
-            { icon: MapPin, title: "38 districts", text: "Bihar-wide service" },
-            { icon: Satellite, title: "Live fleet", text: "Location on mobile" },
-            { icon: MapPinned, title: "Zone alerts", text: "Mine and quarry areas" },
-            { icon: Headphones, title: "Local help", text: "Installation support" },
+            { icon: MapPin, title: "38 districts", text: "Bihar Khanan network service" },
+            { icon: Satellite, title: "Live Sand Fleet", text: "Mobile app tracking & ISTP" },
+            { icon: MapPinned, title: "Balu Ghat Zones", text: "Quarry geofence & e-challan alerts" },
+            { icon: Headphones, title: "On-Site Support", text: "Doorstep mining vehicle fitting" },
           ].map(({ icon: Icon, title, text }) => (
             <article
               key={title}
@@ -386,9 +386,9 @@ export default function MiningGpsPage() {
       <section id="features" className="bg-white py-16 sm:py-20">
         <div className="mx-auto w-[calc(100%_-_32px)] max-w-[1180px]">
           <SectionHeading
-            eyebrow="Mining GPS features"
-            title="Know where your fleet is and what it is doing"
-            text="Simple controls for mines, quarries, contractors and material-transport fleets."
+            eyebrow="BIHAR KHANAN GPS FEATURES"
+            title="Real-Time Fleet Control & E-Challan Protection"
+            text="Advanced tracking for sand tippers, stone dumpers, JCB/Poclain excavators, and mining contractors in Bihar."
           />
 
           <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5">
