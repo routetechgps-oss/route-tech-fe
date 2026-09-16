@@ -318,7 +318,7 @@ export default function MiningGpsPage() {
               </span>
             </div>
 
-            <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
+            <h1 className="mb-5 text-[33px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
               Best Mining (Khanan) Gps Tracker
               <span className="block text-route-orange">in Bihar</span>
             </h1>
