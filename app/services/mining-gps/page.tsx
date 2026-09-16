@@ -311,15 +311,15 @@ export default function MiningGpsPage() {
           <div className="max-w-[650px]">
             <div className="mb-5 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.12em] text-route-blue shadow-sm backdrop-blur">
-                <Truck size={16} /> AUTHORIZED BIHAR KHANAN GPS PARTNER | ALL 38 DISTRICTS
+                <Truck size={16} /> AUTHORIZED BIHAR KHANAN GPS PARTNER
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.1em] text-route-orange shadow-sm backdrop-blur">
-                <MapPin size={16} /> Best Khanan GPS In Bihar
+                <MapPin size={16} /> ALL 38 DISTRICTS
               </span>
             </div>
 
             <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
-              Advanced Khanan & Mining Ghat GPS Tracking
+              Best Mining (Khanan) Gps Tracker
               <span className="block text-route-orange">in Bihar</span>
             </h1>
             <p className="mb-3 text-[20px] font-black leading-7 text-route-navy sm:text-[24px]">
