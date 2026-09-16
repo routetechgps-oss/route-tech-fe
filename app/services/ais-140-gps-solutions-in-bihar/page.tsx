@@ -34,24 +34,24 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AIS-140 GPS in Bihar | Certified Device & Installation",
+  title: "AIS140 VLTD GPS in Bihar | Certified Device & Installation",
   description:
     "Install AIS-140 certified GPS in Bihar with Route Tech. Get NIC/Vahan integration, VLTD registration support, panic-button compatibility and 24x7 live vehicle tracking across all 38 districts.",
   keywords: [
-    "AIS 140 GPS Bihar",
-    "AIS-140 certified GPS device Bihar",
-    "AIS 140 GPS installation Bihar",
-    "VLTD registration Bihar",
+    "AIS140 VLTD GPS Bihar",
+    "AIS140 certified VLTD GPS device Bihar",
+    "AIS140 VLTD GPS installation Bihar",
+    "Vahan registration Bihar",
     "NIC Vahan GPS integration",
     "commercial vehicle GPS Bihar",
     "school bus GPS Bihar",
-    "AIS 140 GPS Patna",
+    "AIS140 VLTD GPS Patna",
   ],
   alternates: { canonical: "/services/ais-140-gps-solutions-in-bihar" },
   openGraph: {
-    title: "AIS-140 GPS in Bihar | Route Tech",
+    title: "AIS140 VLTD GPS in Bihar | Route Tech",
     description:
-      "Certified AIS-140 GPS installation, NIC/Vahan integration and live tracking support across all 38 districts of Bihar.",
+      "Certified AIS140 VLTD GPS installation, NIC/Vahan Sync and live tracking support across all 38 districts of Bihar.",
     url: "/services/ais-140-gps-solutions-in-bihar",
     type: "website",
     images: [
@@ -59,14 +59,14 @@ export const metadata: Metadata = {
         url: "/images/route-tech/ais140-hero-bihar.jpg",
         width: 2200,
         height: 1238,
-        alt: "AIS-140 GPS solution for trucks and school buses across Bihar",
+        alt: "AIS140 VLTD GPS solution for trucks and school buses across Bihar",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AIS-140 GPS in Bihar | Route Tech",
-    description: "Certified AIS-140 GPS installation and tracking support across Bihar.",
+    title: "AIS140 VLTD GPS in Bihar | Route Tech",
+    description: "Certified AIS140 VLTD GPS installation and tracking support across Bihar.",
     images: ["/images/route-tech/ais140-hero-bihar.jpg"],
   },
   other: { "geo.region": "IN-BR", "geo.placename": "Bihar" },
@@ -128,71 +128,71 @@ const industries: Array<{
 }> = [
   {
     image: "/images/route-tech/ais140-industry-school-bus.jpg",
-    alt: "Yellow school bus using AIS-140 GPS tracking in Bihar",
+    alt: "AIS140 VLTD GPS tracking for school buses in Patna",
     icon: GraduationCap,
-    title: "School Bus",
-    text: "Certified tracking for student transport",
+    title: "School Bus VLTD GPS Tracking",
+    text: "Mandatory AIS140 safety VLTD tracking with emergency panic buttons for school buses across Patna and Bihar.",
   },
   {
     image: "/images/route-tech/ais140-industry-mining.jpg",
-    alt: "Mining tipper vehicle operating with GPS tracking in Bihar",
+    alt: "Mining tipper Khanan GPS compliance for Bihar sand transport",
     icon: Warehouse,
-    title: "Mining",
-    text: "GPS visibility for heavy equipment",
+    title: "Mining (Khanan) Tippers & Hyvas GPS",
+    text: "Specialized GPS tracking for sand ghat tippers, dumpers, and heavy machinery with e-challan integration.",
   },
   {
     image: "/images/route-tech/ais140-industry-commercial-truck.jpg",
-    alt: "Commercial cargo truck using AIS-140 GPS in Bihar",
+    alt: "Commercial cargo truck using AIS140 VLTD GPS in Bihar",
     icon: Truck,
-    title: "Commercial Vehicles",
-    text: "Live tracking for goods vehicles",
+    title: "Commercial Trucks & Fleets",
+    text: "MoRTH-approved VLTD tracking and fast RTO fitness clearance for goods transport carriers.",
   },
   {
     image: "/images/route-tech/ais140-industry-ambulance.jpg",
-    alt: "Ambulance using AIS-140 GPS tracking in Bihar",
+    alt: "Ambulance using AIS140 VLTD GPS tracking in Bihar",
     icon: Ambulance,
-    title: "Ambulance",
-    text: "Location visibility for emergency fleets",
+    title: "Emergency Ambulances",
+    text: "Real-time tracking and emergency dispatch support for medical transport and hospital fleets.",
   },
   {
     image: "/images/route-tech/ais140-industry-passenger-bus.jpg",
-    alt: "Passenger coach bus using AIS-140 GPS in Bihar",
+    alt: "Passenger coach bus using AIS140 VLTD GPS in Bihar",
     icon: BusFront,
-    title: "Passenger Transport",
-    text: "Certified tracking for buses and cabs",
+    title: "Taxis, Cabs & Passenger Buses",
+    text: "Vahan portal-synced tracking devices for commercial passenger buses, tourist cabs, and rental fleets.",
   },
 ];
 
 const steps: Array<{ icon: LucideIcon; title: string; text: string }> = [
-  { icon: ClipboardCheck, title: "Order Placed", text: "Place your order with our team." },
-  { icon: Wrench, title: "Device Installation", text: "Quick installation by our experts." },
-  { icon: FileCheck2, title: "NIC Registration", text: "We handle NIC registration for you." },
-  { icon: MonitorSmartphone, title: "Vehicle Live", text: "Your vehicle is now live and trackable 24x7." },
+  { icon: ClipboardCheck, title: "Book AIS-140 Order", text: "Share vehicle details & location with our Patna team." },
+  { icon: Wrench, title: "Doorstep VLTD Fitting", text: "Expert on-site installation across all 38 districts of Bihar." },
+  { icon: FileCheck2, title: "Vahan Portal & NIC Sync", text: "Instant RTO registration and official portal certificate upload." },
+  { icon: MonitorSmartphone, title: "Instant Live Tracking", text: "Start 24/7 mobile app tracking & secure RTO fitness clearance." },
 ];
 
 const dealerBenefits: Array<{ icon: LucideIcon; title: string }> = [
-  { icon: IndianRupee, title: "Attractive Margins" },
-  { icon: Megaphone, title: "Marketing Support" },
-  { icon: UsersRound, title: "Training & Support" },
-  { icon: Clock3, title: "Timely Payout" },
+  { icon: IndianRupee, title: "High Profit Margins" },
+  { icon: Megaphone, title: "Local Lead & Marketing Support" },
+  { icon: UsersRound, title: "Technical Training & Vahan Setup" },
+  { icon: Clock3, title: "Fast & Secure Payouts" },
 ];
 
 const testimonials = [
   {
     image: "/images/route-tech/testimonial-rakesh-kumar.jpg",
-    quote: "Route Tech provided excellent AIS-140 devices and installation. Their team is very professional and supportive.",
+    quote: "Got fast AIS-140 VLTD fitness clearance in Patna. Professional doorstep installation team and smooth Vahan sync.",
     name: "Rakesh Kumar",
     role: "Transporter, Patna",
   },
   {
     image: "/images/route-tech/testimonial-sanjay-singh.jpg",
-    quote: "Best service in Bihar! NIC registration and installation was done very smoothly.",
+    quote: "Best AIS-140 service provider in Bihar! Quick NIC registration and smooth bus VLTD GPS installation.",
     name: "Sanjay Singh",
     role: "Bus Operator, Gaya",
   },
   {
     image: "/images/route-tech/testimonial-imran-khan.jpg",
-    quote: "Reliable devices, perfect tracking and great after-sales support.",
+    quote: "Reliable AIS-140 tracking devices, excellent mobile app, and great local support across Bihar.",
     name: "Imran Khan",
     role: "Logistics Owner, Muzaffarpur",
   },
@@ -200,28 +200,28 @@ const testimonials = [
 
 const faq = [
   {
-    q: "What is AIS-140 and why is it required?",
-    a: "AIS-140 is an Indian standard for Vehicle Location Tracking Devices used in eligible commercial and passenger vehicles. It supports continuous tracking and safety functions such as panic-button input.",
+    q: "What is AIS-140 VLTD and why is it mandatory for commercial vehicles in Bihar?",
+    a: "AIS-140 is a government-mandated standard for Vehicle Location Tracking Devices with emergency panic buttons, required for RTO fitness and permits.",
   },
   {
-    q: "Are your devices AIS-140 certified?",
-    a: "Route Tech supplies certified AIS-140 GPS devices selected for eligible commercial, school and passenger transport requirements.",
+    q: "Are your GPS devices RTO approved and AIS-140 certified in Patna?",
+    a: "Yes, Route Tech provides 100% MoRTH-approved and certified AIS-140 VLTD hardware for all commercial fleets.",
   },
   {
-    q: "Do you provide NIC / Vahan integration?",
-    a: "Yes. Route Tech helps with device mapping and the required NIC/Vahan registration process for supported vehicle categories.",
+    q: "Do you provide Vahan portal sync and NIC registration support?",
+    a: "Yes, we handle complete device mapping, NIC registration, and official Vahan portal certificate uploads for instant clearance.",
   },
   {
-    q: "How long does installation take?",
-    a: "Most standard installations are completed during one scheduled technician visit. Exact timing depends on the vehicle and fitment location.",
+    q: "How long does doorstep VLTD GPS installation take in Patna and Bihar?",
+    a: "Our expert technicians provide fast, same-day doorstep installation and fitting across all 38 districts of Bihar.",
   },
   {
-    q: "Which vehicles require AIS-140 GPS?",
-    a: "Common use cases include commercial trucks, school buses, passenger buses, taxis, ambulances and other eligible transport vehicles.",
+    q: "Which vehicles require AIS-140 VLTD tracking for RTO fitness in Bihar?",
+    a: "It is compulsory for commercial trucks, passenger buses, school buses, taxis, rental cabs, and ambulances.",
   },
   {
-    q: "Do you provide support after installation?",
-    a: "Yes. Route Tech provides responsive after-sales support for device access, live tracking, alerts and installation-related questions.",
+    q: "Do you provide local technical support and mobile app training after fitting?",
+    a: "Yes, we offer 24/7 dedicated customer support, mobile tracking app access, and local assistance across Bihar.",
   },
 ];
 
@@ -328,7 +328,7 @@ export default function Ais140GpsPage() {
       <section className="relative isolate min-h-[660px] overflow-hidden bg-white">
         <Image
           src="/images/route-tech/ais140-hero-bihar.jpg"
-          alt="AIS-140 GPS solution for a commercial truck and school bus across Bihar"
+          alt="AIS140 VLTD GPS solution for a commercial truck and school bus across Bihar"
           fill
           priority
           sizes="100vw"
@@ -467,7 +467,7 @@ export default function Ais140GpsPage() {
         <div className="mx-auto w-[calc(100%_-_32px)] max-w-[1180px]">
           <SectionHeading
             eyebrow="Industries"
-            title="Industries We Serve"
+            title="AIS-140 VLTD Solutions for Every Commercial Sector in Bihar"
           />
 
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
@@ -502,7 +502,7 @@ export default function Ais140GpsPage() {
         <div className="mx-auto w-[calc(100%_-_32px)] max-w-[1100px]">
           <SectionHeading
             eyebrow="Simple installation"
-            title="Our Simple Installation Process"
+            title="AIS-140 VLTD Installation & Vahan Sync Process in Bihar"
           />
 
           <div className="grid gap-4 md:grid-cols-4">
@@ -540,10 +540,10 @@ export default function Ais140GpsPage() {
             </span>
             <div>
               <h2 className="mb-2 text-[27px] font-black leading-tight text-white sm:text-[34px]">
-                Become Our Dealer Partner
+                AIS 140 VLTD GPS Dealership & Distributorship in Bihar
               </h2>
               <p className="m-0 max-w-[500px] text-[13px] font-semibold leading-6 text-blue-200 sm:text-[14px]">
-                Join Route Tech and grow your business with India&apos;s most trusted AIS140 GPS solutions.
+                Partner with Route Tech to expand your business. Become an authorized AIS-140 VLTD GPS dealer across Patna & all 38 districts.
               </p>
             </div>
           </div>
@@ -563,14 +563,14 @@ export default function Ais140GpsPage() {
             href="/dealer-network"
             className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl bg-route-orange px-6 text-[15px] font-extrabold text-white shadow-[0_14px_30px_rgba(249,115,22,.22)]"
           >
-            Partner With Us <ArrowRight size={19} />
+            Join As VLTD Dealer <ArrowRight size={19} />
           </Link>
         </div>
       </section>
 
       <section id="testimonials" className="bg-route-soft py-16 sm:py-20">
         <div className="mx-auto w-[calc(100%_-_32px)] max-w-[1180px]">
-          <SectionHeading eyebrow="Customer stories" title="What Our Clients Say" />
+          <SectionHeading eyebrow="Customer stories" title="Trusted by Fleet Owners & Transporters Across Bihar" />
 
           <div className="grid gap-4 md:grid-cols-3">
             {testimonials.map(({ image, quote, name, role }) => (
@@ -638,16 +638,16 @@ export default function Ais140GpsPage() {
             <span className="mx-auto mb-5 grid h-20 w-20 place-items-center rounded-full bg-white text-route-orange shadow-sm">
               <Headphones size={38} />
             </span>
-            <span className="mb-2 block text-[11px] font-black uppercase tracking-[.15em] text-route-orange">Still have questions?</span>
-            <h2 className="mb-3 text-[27px] font-black leading-tight text-route-ink">We&apos;re here to help!</h2>
+            <span className="mb-2 block text-[11px] font-black uppercase tracking-[.15em] text-route-orange">NEED INSTANT RTO GUIDANCE?</span>
+            <h2 className="mb-3 text-[27px] font-black leading-tight text-route-ink">Talk to Our Patna GPS Experts!</h2>
             <p className="mb-6 text-[13px] font-semibold leading-6 text-slate-600">
-              Call us now for device, installation and registration support.
+              Call now for AIS-140 VLTD compliance, Vahan portal sync, and doorstep fitting across Bihar.
             </p>
             <a
               href="tel:+918935989871"
               className="inline-flex min-h-[56px] w-full items-center justify-center gap-3 rounded-xl bg-route-orange px-5 text-[16px] font-extrabold text-white shadow-[0_14px_30px_rgba(249,115,22,.24)]"
             >
-              <Phone size={21} fill="currentColor" /> Call now
+              <Phone size={21} fill="currentColor" /> Call Patna & Bihar GPS Helpline
             </a>
             <p className="mb-0 mt-4 text-[18px] font-black text-route-blue">+91 89359 89871</p>
           </aside>
