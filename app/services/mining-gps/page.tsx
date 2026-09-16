@@ -319,8 +319,8 @@ export default function MiningGpsPage() {
             </div>
 
              <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
-                Best Mining (Khanan) GPS Tracker
-              <span className="block text-route-orange">in Bihar</span>
+                Best Khanan GPS
+              <span className="block text-route-orange">Tracker in Bihar</span>
               </h1>
             <p className="mb-3 text-[20px] font-black leading-7 text-route-navy sm:text-[24px]">
               See every vehicle. Control every route.
