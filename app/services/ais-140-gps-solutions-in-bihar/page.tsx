@@ -340,10 +340,10 @@ export default function Ais140GpsPage() {
           <div className="max-w-[650px]">
             <div className="mb-5 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.12em] text-route-blue shadow-sm backdrop-blur">
-                <ShieldCheck size={16} /> Govt & RTO Approved VLTD GPS In Bihar.
+                <ShieldCheck size={20} /> Govt & RTO Approved VLTD GPS In Bihar.
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.1em] text-route-orange shadow-sm backdrop-blur">
-                <MapPin size={16} /> Pantna & All 38 Districts Coverage
+                <MapPin size={20} /> Pantna & All 38 Districts Coverage
               </span>
             </div>
 
