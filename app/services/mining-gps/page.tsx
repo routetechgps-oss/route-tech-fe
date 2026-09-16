@@ -291,7 +291,7 @@ export default function MiningGpsPage() {
     { label: "IP67 Dust & Waterproof Rugged Hardware", icon: ShieldCheck },
     { label: "Sand Ghat Geofence & Boundary Alerts", icon: MapPinned },
     { label: "Khanan Soft & Vahan Portal Sync", icon: Route },
-    { label: "24/7 Mining Fleet Control Dashboard" },
+    { label: "24/7 Mining Fleet Control Dashboard", icon: MonitorSmartphone },
   ];
 
   return (
