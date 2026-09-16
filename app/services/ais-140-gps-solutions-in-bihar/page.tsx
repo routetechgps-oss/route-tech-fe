@@ -75,48 +75,48 @@ export const metadata: Metadata = {
 const features: Array<{ icon: LucideIcon; title: string; text: string; tone: "blue" | "orange" }> = [
   {
     icon: ShieldCheck,
-    title: "AIS-140 Certified",
-    text: "All devices are AIS-140 certified and approved by the Government of India.",
+    title: "MoRTH & AIS140 VLTD Certified.",
+    text: "Govt - Certified VLTD Devices With RTO Clearance And Instant Vahan Portal Sync Accross Bihar.",
     tone: "blue",
   },
   {
     icon: BellRing,
-    title: "Panic Button",
-    text: "Emergency SOS button for driver safety and instant alerts.",
+    title: "Emergency SOS Panic Button",
+    text: "Govt - Mandated SOS Emergency Button For Passenger Safety & Instant RTO Compliance.",
     tone: "orange",
   },
   {
     icon: Fuel,
-    title: "Fuel Monitoring",
-    text: "Monitor fuel usage, theft alerts and refills in real time.",
+    title: "Fuel & Mining Royalty Tracking",
+    text: "Real - Time Fuel Theft Alerts, Mileage Reports, Route Monitoring",
     tone: "blue",
   },
   {
     icon: Satellite,
-    title: "Real-Time Tracking",
-    text: "Live tracking with 24x7 real-time updates on web and mobile.",
+    title: "24*7 Live GPS Mobile App",
+    text: "Live Fleet Tracking With Instant Ignition Alerts, Route History, and Speed Monitoring On Android & iOS",
     tone: "orange",
   },
   {
     icon: MapPinned,
-    title: "Geo Fence",
-    text: "Set safe zones and get instant alerts on boundary breach.",
+    title: "GeoFencing",
+    text: "Set Custom Boundary Zone City Entry Limits, and Get Instant Entry Exit Alerts.",
     tone: "blue",
   },
   {
     icon: Headphones,
-    title: "24/7 Support",
-    text: "Our support team is always ready to help you, 24x7.",
+    title: "Local Patna & Bihar Support",
+    text: "Dedicated Local Technical Support And Doorstep GPS Fitting Assistance Accross All 38 Districts Of Bihar",
     tone: "orange",
   },
 ];
 
 const reasons: Array<{ icon: LucideIcon; title: string; text: string }> = [
-  { icon: Wrench, title: "Fast Installation", text: "Quick and hassle-free installation across Bihar." },
-  { icon: MapPin, title: "Bihar Wide Service", text: "Service network in all 38 districts of Bihar." },
-  { icon: FileCheck2, title: "Government Compliance", text: "100% compliant with AIS-140 and VLTD regulations." },
-  { icon: UsersRound, title: "Expert Team", text: "Trained professionals with deep industry experience." },
-  { icon: BadgeCheck, title: "Device Warranty", text: "Reliable devices with up to 3 years warranty." },
+  { icon: Wrench, title: Same-Day Doorstep Fitting", text: "Fast And Hassle - Free GPS Installation At Your Site In Patna & All Bihar Districts." },
+  { icon: MapPin, title: "38 Districts VLTD GPS Service Network", text: "One - Site Support & Fitting Network Operating Across All 38 Districts Of Bihar." },
+  { icon: FileCheck2, title: "100% RTO & Vahan Approved", text: "Fully Compliant With AIS140 VLTD Norms & Instant Vahan Portal Sync." },
+  { icon: UsersRound, title: "Certified RTO GPS Technicians", text: "Expert Local Technicians For Commercial Trucks, Taxis & Mining Fleets." },
+  { icon: BadgeCheck, title: "Up To 8 Years Warranty", text: "Heavy - Duty IP68 Waterproof Hardware Backed By Hassle - Free Warranty Support." },
 ];
 
 const industries: Array<{
@@ -420,8 +420,8 @@ export default function Ais140GpsPage() {
       <section id="features" className="bg-white py-16 sm:py-20">
         <div className="mx-auto w-[calc(100%_-_32px)] max-w-[1180px]">
           <SectionHeading
-            eyebrow="Powerful features"
-            title="Powerful Features. Complete Compliance."
+            eyebrow="AIS140 VLTD Features"
+            title="Advanced Features With 100% RTO & Vahan Compliance."
           />
 
           <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5">
@@ -442,8 +442,8 @@ export default function Ais140GpsPage() {
       <section className="bg-route-soft py-16 sm:py-20">
         <div className="mx-auto w-[calc(100%_-_32px)] max-w-[1180px]">
           <SectionHeading
-            eyebrow="Why Route Tech"
-            title="Why Choose Route Tech?"
+            eyebrow="Bihar No 1 GPS Provider"
+            title="Why Choose Route Tech For AIS140 VLTD GPS?"
           />
 
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
