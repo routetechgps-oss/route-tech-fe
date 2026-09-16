@@ -288,10 +288,10 @@ export default function MiningGpsPage() {
   };
 
   const heroBenefits: Array<{ label: string; icon: LucideIcon }> = [
-    { label: "Rugged devices", icon: ShieldCheck },
-    { label: "Zone alerts", icon: MapPinned },
-    { label: "Route history", icon: Route },
-    { label: "24x7 dashboard", icon: MonitorSmartphone },
+    { label: "IP67 Dust & Waterproof Rugged Hardware", icon: ShieldCheck },
+    { label: "Sand Ghat Geofence & Boundary Alerts", icon: MapPinned },
+    { label: "Khanan Soft & Vahan Portal Sync", icon: Route },
+    { label: "24/7 Mining Fleet Control Dashboard },
   ];
 
   return (
@@ -299,7 +299,7 @@ export default function MiningGpsPage() {
       <section className="relative isolate min-h-[660px] overflow-hidden bg-white">
         <Image
           src="/images/route-tech/mining-gps-hero-bihar.jpg"
-          alt="Mining GPS tracking for a tipper, excavator and heavy fleet in Bihar"
+          alt="Mining (Khanan) GPS tracking for a tipper, excavator and heavy fleet in Bihar"
           fill
           priority
           sizes="100vw"
@@ -311,22 +311,22 @@ export default function MiningGpsPage() {
           <div className="max-w-[650px]">
             <div className="mb-5 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.12em] text-route-blue shadow-sm backdrop-blur">
-                <Truck size={16} /> Mining fleet GPS partner
+                <Truck size={16} /> AUTHORIZED BIHAR KHANAN GPS PARTNER | ALL 38 DISTRICTS
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.1em] text-route-orange shadow-sm backdrop-blur">
-                <MapPin size={16} /> All 38 districts
+                <MapPin size={16} /> Best Khanan GPS In Bihar
               </span>
             </div>
 
             <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
-              Mining GPS
+              Advanced Khanan & Mining Ghat GPS Tracking
               <span className="block text-route-orange">in Bihar</span>
             </h1>
             <p className="mb-3 text-[20px] font-black leading-7 text-route-navy sm:text-[24px]">
               See every vehicle. Control every route.
             </p>
             <p className="mb-6 max-w-[590px] text-[15px] font-semibold leading-7 text-slate-600 sm:text-[17px]">
-              Track tippers, dumpers, excavators and contractor trucks with live location, work-zone alerts and route history.
+              Ensure 100% compliance with the Bihar Mines & Geology Department (Khanan Vibhag). Real-time tracking for sand tippers, dumpers, excavators (JCB/Poclain), and stone quarry trucks with Khanan Soft integration, e-challan prevention, and Interstate Transit Permit (ISTP) monitoring.
             </p>
 
             <div className="mb-8 grid max-w-[610px] grid-cols-2 gap-2 sm:grid-cols-4">
@@ -346,13 +346,13 @@ export default function MiningGpsPage() {
                 href="tel:+918935989871"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl bg-route-orange px-7 text-[16px] font-extrabold text-white shadow-[0_15px_34px_rgba(249,115,22,.28)] transition hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-200"
               >
-                <Phone size={21} fill="currentColor" /> Call for installation
+                <Phone size={21} fill="currentColor" /> Call for Mining (Khanan) GPS Installation
               </a>
               <Link
                 href="/contact"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl border border-blue-200 bg-white/90 px-7 text-[16px] font-extrabold text-route-blue shadow-sm backdrop-blur transition hover:bg-blue-50 focus:outline-none focus:ring-4 focus:ring-blue-100"
               >
-                Get a quote <ArrowRight size={20} />
+                Get an Instant Commercial Quote <ArrowRight size={20} />
               </Link>
             </div>
           </div>
