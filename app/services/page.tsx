@@ -77,32 +77,32 @@ const vehicleMatches = [
   {
     image: "/images/route-tech/service-vehicle-truck.jpg",
     alt: "Commercial truck or tempo for AIS-140 GPS tracking in Bihar",
-    title: "Truck or tempo",
-    answer: "AIS-140 GPS",
+    title: "Truck, Tempo & Pickup",
+    answer: "AIS140 VLTD Tracker (RTO Fitness).",
   },
   {
     image: "/images/route-tech/service-vehicle-passenger-bus.jpg",
-    alt: "Passenger bus for AIS-140 GPS tracking in Bihar",
-    title: "Passenger bus",
-    answer: "AIS-140 GPS",
+    alt: "Tourist, Passenger bus for AIS-140 GPS tracking in Bihar",
+    title: "Tourist & Passenger bus",
+    answer: "AIS140 GPS With SOS Panic Button.",
   },
   {
     image: "/images/route-tech/service-vehicle-school-bus.jpg",
-    alt: "Yellow school bus for AIS-140 GPS tracking in Bihar",
-    title: "School bus",
-    answer: "AIS-140 GPS",
+    alt: "College & school bus for AIS-140 GPS tracking in Bihar",
+    title: "School & College bus",
+    answer: "Mandatory VLTD GPS or Live App",
   },
   {
     image: "/images/route-tech/service-vehicle-ambulance.jpg",
-    alt: "Ambulance for AIS-140 GPS tracking in Bihar",
-    title: "Ambulance",
-    answer: "AIS-140 GPS",
+    alt: "Ambulance & Hospital Fleet for AIS-140 GPS tracking in Bihar",
+    title: "Ambulance & Hospital Fleet",
+    answer: "Govt Mandatory VLTD GPS",
   },
   {
     image: "/images/route-tech/service-vehicle-mining-tipper.jpg",
     alt: "Mining tipper or dumper for GPS tracking in Bihar",
-    title: "Tipper or dumper",
-    answer: "Mining GPS",
+    title: "Tipper, Hyva & Dumper",
+    answer: "Mining GPS Royalty & E-Challan",
   },
 ];
 
@@ -287,9 +287,9 @@ export default function Services() {
               <Bus size={18} /> Find your vehicle
             </span>
             <h2 className="mb-3 text-[34px] font-black tracking-[-.04em] text-route-ink sm:text-[46px]">
-              Which GPS should you choose?
+              Select Vehicle Category For Govt Approved AIS140 VLTD GPS.
             </h2>
-            <p className="text-[15px] font-semibold text-slate-600">Find your vehicle below. We will confirm the final device before installation.</p>
+            <p className="text-[15px] font-semibold text-slate-600">RTO & Vahan Portal Compliant GPS Solutions For Comercial Fleet Across Bihar.</p>
           </header>
 
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
@@ -317,14 +317,14 @@ export default function Services() {
 
           <div className="mx-auto mt-8 flex max-w-[720px] flex-col items-center justify-between gap-4 rounded-2xl bg-route-navy p-6 text-center text-white sm:flex-row sm:text-left">
             <div>
-              <h3 className="mb-1 text-[20px] font-black text-white">Still not sure?</h3>
-              <p className="m-0 text-[13px] font-semibold text-blue-200">Tell us your vehicle. We will explain the right option.</p>
+              <h3 className="mb-1 text-[20px] font-black text-white">Confused About RTO Norms or Device Fitting?</h3>
+              <p className="m-0 text-[13px] font-semibold text-blue-200">Talk To Our Patna GPS Expert To Get Instant Vahan Portal & RTO Guidance.</p>
             </div>
             <a
               href="tel:+918935989871"
               className="inline-flex min-h-[50px] shrink-0 items-center justify-center gap-2 rounded-xl bg-route-orange px-5 text-[14px] font-extrabold text-white"
             >
-              <Phone size={18} fill="currentColor" /> Call Route Tech
+              <Phone size={18} fill="currentColor" /> Call RTO GPS Helpline.
             </a>
           </div>
         </div>
