@@ -396,9 +396,10 @@ export default function Ais140GpsPage() {
       <section aria-label="AIS-140 service assurance" className="bg-route-navy text-white">
         <div className="mx-auto grid w-[calc(100%_-_24px)] max-w-[1180px] grid-cols-1 sm:w-[calc(100%_-_40px)] sm:grid-cols-3">
           {[
-            { icon: ShieldCheck, title: "AIS140", text: "Certified Devices" },
-            { icon: FileCheck2, title: "NIC / Vahan", text: "Integrated" },
-            { icon: FileCheck2, title: "100% Govt.", text: "Compliant" },
+            { icon: ShieldCheck, title: "AIS140 VLTD", text: "MoRTH & RTO Approved" },
+            { icon: FileCheck2, title: "NIC & Vahan", text: "Instant Portal Sync" },
+            { icon: FileCheck2, title: "RTO Fitness Ready.", text: "100% Govt Compliant" },
+            { icon: FileCheck2, title: "Doorstep Fitting.", text: "Patna & Bihar Cover" },
           ].map(({ icon: Icon, title, text }) => (
             <article
               key={title}
