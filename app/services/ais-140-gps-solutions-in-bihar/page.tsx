@@ -112,7 +112,7 @@ const features: Array<{ icon: LucideIcon; title: string; text: string; tone: "bl
 ];
 
 const reasons: Array<{ icon: LucideIcon; title: string; text: string }> = [
-  { icon: Wrench, title: Same-Day Doorstep Fitting", text: "Fast And Hassle - Free GPS Installation At Your Site In Patna & All Bihar Districts." },
+  { icon: Wrench, title: "Same-Day Doorstep Fitting", text: "Fast And Hassle - Free GPS Installation At Your Site In Patna & All Bihar Districts." },
   { icon: MapPin, title: "38 Districts VLTD GPS Service Network", text: "One - Site Support & Fitting Network Operating Across All 38 Districts Of Bihar." },
   { icon: FileCheck2, title: "100% RTO & Vahan Approved", text: "Fully Compliant With AIS140 VLTD Norms & Instant Vahan Portal Sync." },
   { icon: UsersRound, title: "Certified RTO GPS Technicians", text: "Expert Local Technicians For Commercial Trucks, Taxis & Mining Fleets." },
