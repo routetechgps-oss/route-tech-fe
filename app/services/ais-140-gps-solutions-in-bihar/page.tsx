@@ -340,30 +340,30 @@ export default function Ais140GpsPage() {
           <div className="max-w-[650px]">
             <div className="mb-5 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.12em] text-route-blue shadow-sm backdrop-blur">
-                <ShieldCheck size={16} /> Bihar&apos;s trusted AIS-140 partner
+                <ShieldCheck size={16} /> Govt & RTO Approved VLTD GPS In Bihar.
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.1em] text-route-orange shadow-sm backdrop-blur">
-                <MapPin size={16} /> All 38 districts
+                <MapPin size={16} /> Pantna & All 38 Districts Coverage
               </span>
             </div>
 
             <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
-              AIS140 GPS
-              <span className="block text-route-orange">Solutions</span>
+              RTO Approved AIS140 VLTD GPS
+              <span className="block text-route-orange">Solutions In Bihar</span>
             </h1>
             <p className="mb-3 text-[20px] font-black leading-7 text-route-navy sm:text-[24px]">
               for Government Compliance
             </p>
             <p className="mb-6 max-w-[590px] text-[15px] font-semibold leading-7 text-slate-600 sm:text-[17px]">
-              Complete AIS140 compliant tracking solutions for commercial vehicles, school buses, mining equipment and transport businesses across Bihar.
+              RTO & Vahan Portal Approved AIS140 VLTD Gps Devices With Emergancy Panic Button. Fast Doorstep Installation For Commercial Trucks, Taxis, School Buses, Tippers & Mining Hyvas Across Patna And All 38 Districts Of Bihar.
             </p>
 
             <div className="mb-8 grid max-w-[610px] grid-cols-2 gap-2 sm:grid-cols-4">
               {[
-                ["Certified VLTD Devices", ShieldCheck],
-                ["NIC Integration", FileCheck2],
-                ["24x7 Tracking", Satellite],
-                ["Expert Installation", Wrench],
+                ["MoRTH Approved VLTD", ShieldCheck],
+                ["Vahan & NIC Sync", FileCheck2],
+                ["24x7 Live Mobile App", Satellite],
+                ["Same-Day Doorstep Fitting", Wrench],
               ].map(([label, Icon]) => (
                 <span
                   key={label as string}
@@ -380,13 +380,13 @@ export default function Ais140GpsPage() {
                 href="/contact"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl bg-route-blue px-7 text-[16px] font-extrabold text-white shadow-[0_15px_34px_rgba(20,105,211,.26)] transition hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
               >
-                Request Demo <ArrowRight size={20} />
+                Get Quote <ArrowRight size={20} />
               </Link>
               <Link
                 href="/contact"
                 className="inline-flex min-h-[58px] items-center justify-center gap-3 rounded-xl border border-blue-200 bg-white/90 px-7 text-[16px] font-extrabold text-route-blue shadow-sm backdrop-blur transition hover:bg-blue-50 focus:outline-none focus:ring-4 focus:ring-blue-100"
               >
-                Get Quote <ArrowRight size={20} />
+                Call VLTD Helpline <ArrowRight size={20} />
               </Link>
             </div>
           </div>
