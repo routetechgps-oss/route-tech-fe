@@ -28,16 +28,16 @@ import {
 export const metadata: Metadata = {
   title: "Mining GPS in Bihar | Tipper & Heavy Fleet Tracking",
   description:
-    "Install mining GPS in Bihar for tippers, dumpers, excavators and contractor fleets. Get live location, geofence alerts, route history and local support across all 38 districts.",
+    "Install mining (Khanan) GPS in Bihar for tippers, dumpers, excavators and contractor fleets. Get live location, geofence alerts, route history and local support across all 38 districts.",
   keywords: [
-    "mining GPS Bihar",
+    "khanan GPS Bihar",
     "tipper GPS Bihar",
     "dumper GPS tracking Bihar",
     "heavy fleet GPS Bihar",
     "quarry vehicle tracking",
-    "mining truck geofence Bihar",
+    "Khanan truck geofence Bihar",
     "excavator GPS tracking Bihar",
-    "mining GPS Patna",
+    "Khanan GPS Patna",
   ],
   alternates: { canonical: "/services/mining-gps" },
   openGraph: {
@@ -318,9 +318,9 @@ export default function MiningGpsPage() {
               </span>
             </div>
 
-            <h1 className="mb-5 text-[33px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
-              Best Mining (Khanan) Gps Tracker
-              <span className="block text-route-orange">in Bihar</span>
+            <h1 className="mb-5 text-[43px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[60px] lg:text-[74px]">
+              Best Mining (Khanan)
+              <span className="block text-route-orange">Gps Tracker in Bihar</span>
             </h1>
             <p className="mb-3 text-[20px] font-black leading-7 text-route-navy sm:text-[24px]">
               See every vehicle. Control every route.
