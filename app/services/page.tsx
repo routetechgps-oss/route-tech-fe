@@ -108,20 +108,20 @@ const vehicleMatches = [
 
 const faq = [
   {
-    q: "What GPS solutions does Route Tech offer in Bihar?",
-    a: "Route Tech provides AIS-140 certified GPS for commercial and passenger vehicles, plus mining GPS for tippers, dumpers and heavy fleets. Both include installation coordination and local support.",
+    q: "What AIS-140 & Mining GPS solutions are available in Bihar?",
+    a: "Route Tech provides Govt & RTO-approved AIS-140 VLTD GPS devices with Panic Buttons for trucks, buses, taxis, and ambulances. We also offer specialized Mining GPS for Tippers, Dumpers, and Hyvas with E- Challan & Royalty clearance support across Patna and all 38 Bihar districts.",
   },
   {
-    q: "Which GPS is right for my vehicle?",
-    a: "Commercial trucks, buses, school vehicles, ambulances and eligible passenger fleets generally use AIS-140 GPS. Mining GPS is designed for tippers, dumpers and heavy vehicles working around mines, quarries and material routes.",
+    q: "Which GPS device is mandatory for RTO fitness and permit in Bihar?",
+    a: "For commercial vehicles (trucks, buses, taxis, pickups), AIS-140 VLTD with SOS Panic Button is mandatory for RTO fitness and Vahan portal approval. For heavy mining machinery and sand ghat tippers, our E- Challan integrated Mining GPS is recommended.",
   },
   {
-    q: "Can I track my vehicle on my phone?",
-    a: "Yes. After installation and activation, you can view the vehicle's live location and supported tracking information through the mobile tracking experience.",
+    q: "How to track live vehicle location on mobile app?",
+    a: "Yes, our AIS-140 VLTD GPS comes with a free mobile tracking app for Android & iOS. You get 24/7 live location tracking, ignition ON/OFF alerts, route history playback, overspeeding alerts, and emergency SOS notifications.",
   },
   {
-    q: "Do you provide installation across Bihar?",
-    a: "Yes. Route Tech coordinates installation and support across all 38 districts of Bihar. Share your vehicle type and district to confirm availability.",
+    q: "Do you provide same-day doorstep GPS installation in & Bihar?",
+    a: "Yes, we provide doorstep fitting and installation services across all 38 districts of Bihar, including Patna, Muzaffarpur, Gaya, Bhagalpur, Darbhanga, and Purnia, along with instant Vahan portal certificate upload.",
   },
 ];
 
@@ -334,16 +334,16 @@ export default function Services() {
         <div className="mx-auto w-[calc(100%_-_32px)] max-w-[1050px]">
           <header className="mb-10 text-center">
             <span className="mb-3 inline-flex items-center gap-2 text-[12px] font-black uppercase tracking-[.16em] text-route-orange">
-              <Wrench size={18} /> Easy installation
+              <Wrench size={18} /> Quick RTO Clearance Process
             </span>
-            <h2 className="text-[34px] font-black tracking-[-.04em] text-route-ink sm:text-[46px]">Start tracking in 3 steps</h2>
+            <h2 className="text-[34px] font-black tracking-[-.04em] text-route-ink sm:text-[46px]">Get AIS140 VLTD GPS Installed In 3 Easy Steps</h2>
           </header>
 
           <div className="grid gap-4 md:grid-cols-3">
             {[
-              { icon: Phone, number: "1", title: "Call us", text: "Tell us your vehicle and district" },
-              { icon: Wrench, number: "2", title: "Fit the GPS", text: "Our team installs the right device" },
-              { icon: Smartphone, number: "3", title: "Track on mobile", text: "See your vehicle's live location" },
+              { icon: Phone, number: "1", title: "Contact Us & Quote", text: "Share Your Vehicle Details & Location In Patna All Bihar." },
+              { icon: Wrench, number: "2", title: "Doorstep VLTD Fitting", text: "Expert Technician Fits AIS140 Device At Your Location." },
+              { icon: Smartphone, number: "3", title: "Instant RTO Certificate & Live Tracking", text: "Get Vahan Portal Sync Certificate & Live App Access." },
             ].map(({ icon: Icon, number, title, text }) => (
               <article
                 key={number}
@@ -367,13 +367,13 @@ export default function Services() {
         <div className="mx-auto grid w-[calc(100%_-_32px)] max-w-[1100px] gap-8 lg:grid-cols-[.75fr_1.25fr] lg:gap-14">
           <div>
             <span className="mb-3 inline-flex items-center gap-2 text-[12px] font-black uppercase tracking-[.16em] text-route-blue">
-              <Headphones size={18} /> Simple answers
+              <Headphones size={18} /> Frequently Asked Questions
             </span>
             <h2 className="mb-4 text-[36px] font-black leading-[1.08] tracking-[-.04em] text-route-ink sm:text-[46px]">
-              GPS service questions
+              AIS140 VLTD & GPS FAQs
             </h2>
             <p className="mb-6 text-[15px] font-semibold leading-7 text-slate-600">
-              Quick answers for vehicle owners and fleet operators across Bihar.
+              Quick Answers On RTO Clearance, Vahan Portal Sync, and Installation In Bihar.
             </p>
             <div className="flex flex-col gap-2">
               <a href="tel:+918935989871" className="inline-flex items-center gap-2 text-[15px] font-black text-route-orange">
@@ -403,9 +403,9 @@ export default function Services() {
       <section className="bg-route-navy py-14 text-white">
         <div className="mx-auto flex w-[calc(100%_-_32px)] max-w-[1000px] flex-col items-center justify-between gap-6 text-center lg:flex-row lg:text-left">
           <div>
-            <span className="mb-2 block text-[12px] font-black uppercase tracking-[.16em] text-orange-400">Ready to install?</span>
-            <h2 className="mb-2 text-[31px] font-black tracking-[-.035em] text-white sm:text-[40px]">Tell us your vehicle and district</h2>
-            <p className="m-0 text-[15px] font-semibold text-blue-200">Get a clear GPS recommendation from Route Tech.</p>
+            <span className="mb-2 block text-[12px] font-black uppercase tracking-[.16em] text-orange-400">Need Fast RTO Clearance?</span>
+            <h2 className="mb-2 text-[31px] font-black tracking-[-.035em] text-white sm:text-[40px]">Get Doorstep AIS140 VLTD GPS Fitting In Patna All Bihar.</h2>
+            <p className="m-0 text-[15px] font-semibold text-blue-200">Share Your Vehicle Details For Instant Vahan Portal Sync, Price Quote & Doorstep Installation.</p>
           </div>
           <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
             <a
@@ -418,7 +418,7 @@ export default function Services() {
               href="/contact"
               className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl border border-white/25 bg-white/10 px-6 text-[16px] font-extrabold text-white"
             >
-              Contact us <ArrowRight size={19} />
+              Get Free Quote <ArrowRight size={19} />
             </Link>
           </div>
         </div>
