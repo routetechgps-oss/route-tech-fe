@@ -45,7 +45,7 @@ const serviceItems = [
 const reasonItems = [
   "MoRTH & ARAI Certified: Official AIS-140 devices with panic buttons",
   "100% Vahan & Khanan Soft Sync: Hassle-free government portal integration",
-  `Same-Day Doorstep Fitment In ${district} On-site installation across Sheohar district`,
+  `Same-Day Doorstep Fitment In {district} On-site installation across Sheohar district`,
   "24/7 Local Support Desk: Fast technical assistance & e-challan protection",
   "Device Warranty & On-Site Service: Full after-sales hardware replacement",
 ];
