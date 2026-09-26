@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ["AIS 140 GPS dealership Bihar", "Bihar Khanan GPS distributor", "Mining GPS dealer Patna", "VLTD dealer registration Bihar", "Commercial vehicle GPS distributor Bihar", "Sand ghat GPS dealer Bihar", "Route Tech GPS franchise", "Vahan sync GPS supplier Bihar"],
   alternates: { canonical: "/dealer-network" },
   openGraph: {
-    title: "AIS-140 & Mining GPS Dealer Network in Bihar | Route Tech"",
+    title: "AIS-140 & Mining GPS Dealer Network in Bihar | Route Tech",
     description: "Join Bihar's leading AIS-140 & Mining GPS dealer network. High profit margins, Khanan Soft & Vahan portal sync support across all 38 districts.",
     url: "/dealer-network",
     type: "website",
