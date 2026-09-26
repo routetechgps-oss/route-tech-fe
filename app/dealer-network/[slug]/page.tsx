@@ -51,7 +51,7 @@ const reasonItems = [
 ];
 
 const installationSteps: Array<{ icon: LucideIcon; title: string; text: string }> = [
-  { icon: CalendarDays, title: `Book Installation In {district} `, text: `Schedule doorstep fitting online or call our {district} GPS desk for your vehicle or fleet.` },
+  { icon: CalendarDays, title: "Book Installation", text: `Schedule doorstep fitting online or call our {district} GPS desk for your vehicle or fleet.` },
   { icon: UsersRound, title: "Technician Visit", text: "Our certified technician arrives at your site, workshop, or mining hub at your preferred time." },
   { icon: Wrench, title: "Hardware Fitting", text: "ARAI-approved AIS-140 VLTD unit or IP67 rugged mining GPS with panic buttons fitted securely." },
   { icon: FileCheck2, title: "Portal Mapping", text: "Instant mapping and activation on Vahan 4.0 for RTO fitness and Khanan Soft for mining e-challans." },
