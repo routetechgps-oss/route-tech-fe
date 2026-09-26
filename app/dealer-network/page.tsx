@@ -4,18 +4,18 @@ import { biharDistricts, districtCoveragePath } from "@/data/bihar-districts";
 import "./dealer-network.css";
 
 export const metadata: Metadata = {
-  title: "GPS Dealer Network in Bihar – All 38 Districts",
-  description: "Explore Route Tech’s GPS dealer network across all 38 districts of Bihar. Join our AIS-140 and commercial vehicle GPS partnership network with local support.",
-  keywords: ["GPS dealer network Bihar", "AIS 140 dealership Bihar", "GPS dealership in Bihar", "Route Tech dealer", "commercial vehicle GPS dealer Bihar", "GPS distributor Bihar"],
+  title: "AIS-140 & Mining GPS Dealership in Bihar | All 38 Districts",
+  description: "Become an authorized AIS-140 & Mining GPS dealer in Bihar. Partner with Route Tech for high margins, Khanan Soft & Vahan portal sync, and local lead support.",
+  keywords: ["AIS 140 GPS dealership Bihar", "Bihar Khanan GPS distributor", "Mining GPS dealer Patna", "VLTD dealer registration Bihar", "Commercial vehicle GPS distributor Bihar", "Sand ghat GPS dealer Bihar", "Route Tech GPS franchise", "Vahan sync GPS supplier Bihar"],
   alternates: { canonical: "/dealer-network" },
   openGraph: {
-    title: "Route Tech GPS Dealer Network Across Bihar",
-    description: "Dealer and installation support across all 38 districts of Bihar.",
+    title: "AIS-140 & Mining GPS Dealer Network in Bihar | Route Tech"",
+    description: "Join Bihar's leading AIS-140 & Mining GPS dealer network. High profit margins, Khanan Soft & Vahan portal sync support across all 38 districts.",
     url: "/dealer-network",
     type: "website",
-    images: [{ url: "/images/route-tech/dealer-network-social.jpg", width: 1731, height: 909, alt: "Connected Route Tech GPS dealer network across Bihar" }],
+    images: [{ url: "/images/route-tech/dealer-network-social.jpg", width: 1731, height: 909, alt: "Authorized AIS-140 and Mining GPS Dealer Network Across Bihar" }],
   },
-  twitter: { card: "summary_large_image", title: "GPS Dealer Network Across Bihar | Route Tech", description: "Explore Route Tech’s dealer coverage across all 38 districts of Bihar.", images: ["/images/route-tech/dealer-network-social.jpg"] },
+  twitter: { card: "summary_large_image", title: "AIS-140 & Mining GPS Dealership in Bihar | Route Tech", description: "Become an authorized GPS dealer in Bihar. Complete Vahan 4.0 & Khanan Soft technical support in Patna and all 38 districts.", images: ["/images/route-tech/dealer-network-social.jpg"] },
 };
 
 export default function DealerNetworkPage() {
