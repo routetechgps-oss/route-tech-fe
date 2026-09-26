@@ -94,17 +94,17 @@ export function DealerNetworkExperience() {
       <div className="dealer-hero-grid" aria-hidden="true" />
       <div className="shell dealer-hero-layout">
         <div className="dealer-hero-copy">
-          <span className="dealer-kicker"><i /> Bihar-wide dealer intelligence</span>
-          <h1>Dealer network across <em>all 38 districts of Bihar.</em></h1>
-          <p>Route Tech connects commercial vehicle owners with local GPS expertise, coordinated installation and dependable support—wherever business moves across Bihar.</p>
+          <span className="dealer-kicker"><i /> AUTHORIZED BIHAR GPS NETWORK</span>
+          <h1>AIS-140 VLTD & Mining GPS Service Across <em>all 38 districts of Bihar.</em></h1>
+          <p>Doorstep fitting, Vahan portal sync, and local technical support for commercial trucks, sand tippers, buses, and mining fleets in Patna, Gaya, Muzaffarpur, Bhagalpur, and all Bihar districts.</p>
           <div className="dealer-actions">
-            <Link href="#join-network" className="btn dealer-primary">Become a Route Tech dealer <ArrowRight size={18} /></Link>
-            <Link href="#district-network" className="dealer-link">Explore district coverage <Waypoints size={18} /></Link>
+            <Link href="#join-network" className="btn dealer-primary">Become Authorized GPS Dealer <ArrowRight size={18} /></Link>
+            <Link href="#district-network" className="dealer-link">Find GPS Installer Near You <Waypoints size={18} /></Link>
           </div>
           <div className="dealer-assurances">
-            <span><ShieldCheck size={17} /> AIS-140 focused</span>
-            <span><Building2 size={17} /> Bihar-first network</span>
-            <span><Headphones size={17} /> Partner support</span>
+            <span><ShieldCheck size={17} /> MoRTH & AIS-140 VLTD Approved</span>
+            <span><Building2 size={17} /> Khanan Soft & Vahan 4.0 Sync</span>
+            <span><Headphones size={17} /> 24/7 Local District Support</span>
           </div>
         </div>
       </div>
@@ -113,18 +113,18 @@ export function DealerNetworkExperience() {
 
     <section className="dealer-metric-rail" aria-label="Dealer network facts">
       <div className="shell">
-        <article><strong>38</strong><span>districts in the network</span></article>
-        <article><strong>2</strong><span>specialised GPS solutions</span></article>
-        <article><strong>Local</strong><span>installation coordination</span></article>
-        <article><strong>Ongoing</strong><span>dealer enablement</span></article>
+        <article><strong>38</strong><span>BIHAR DISTRICTS COVERED</span></article>
+        <article><strong>2</strong><span>CORE SOLNS: AIS-140 VLTD & MINING</span></article>
+        <article><strong>Local</strong><span>SAME-DAY FITTING IN BIHAR</span></article>
+        <article><strong>100%</strong><span>VAHAN & KHANAN SOFT SYNC</span></article>
       </div>
     </section>
 
     <section className="dealer-explorer" id="district-network">
       <div className="shell">
         <div className="dealer-section-heading" data-dealer-reveal>
-          <div><span className="dealer-kicker dark"><i /> Explore the network</span><h2>Every district is part of the route.</h2></div>
-          <p>Choose a region or search for your district. Route Tech’s network is designed to keep product guidance, fitment coordination and support closer to commercial fleets.</p>
+          <div><span className="dealer-kicker dark"><i /> BIHAR DISTRICT NETWORK</span><h2>AIS-140 VLTD & Mining GPS Coverage Across Every District</h2></div>
+          <p>Select your district or search below. Get doorstep AIS-140 VLTD installation, Vahan portal sync, and Khanan Soft GPS tracking for commercial trucks, sand tippers, and mining fleets across all 38 Bihar districts.</p>
         </div>
 
         <div className="district-explorer">
@@ -138,10 +138,10 @@ export function DealerNetworkExperience() {
           <div className="district-content">
             <aside className="district-status">
               <span className="district-status-icon"><Store size={25} /></span>
-              <small>Selected district</small>
+              <small>ACTIVE SERVICE HUB</small>
               <h3>{selectedDistrict}</h3>
-              <p>Connected to Route Tech’s Bihar dealer and installation support network.</p>
-              <a href="tel:+918935989871">Check local availability <ArrowRight size={17} /></a>
+              <p>Authorized hub for AIS-140 VLTD fitting, Vahan portal sync, and Khanan Soft GPS tracking.</p>
+              <a href="tel:+918935989871">Check Doorstep Availability <ArrowRight size={17} /></a>
               <div><i /> Coverage active</div>
             </aside>
             <div className="district-list" aria-live="polite">
@@ -150,7 +150,7 @@ export function DealerNetworkExperience() {
                   key={district}
                   href={districtCoveragePath(district)}
                   className={selectedDistrict === district ? "selected" : ""}
-                  aria-label={`View AIS-140 GPS solutions in ${district}`}
+                  aria-label={`View AIS-140 VLTD & Mining GPS solutions in ${district}`}
                 >
                   <span><Check size={14} /></span>{district}
                 </Link>
@@ -165,8 +165,8 @@ export function DealerNetworkExperience() {
     <section className="dealer-partnership">
       <div className="shell">
         <div className="dealer-section-heading light" data-dealer-reveal>
-          <div><span className="dealer-kicker"><i /> Partnership, engineered better</span><h2>More than a dealership. A local operating advantage.</h2></div>
-          <p>Route Tech combines product focus, commercial clarity and accessible support so partners can build trust with vehicle owners in their own district.</p>
+          <div><span className="dealer-kicker"><i /> BIHAR DEALER & DISTRIBUTOR NETWORKr</span><h2>More Than a Dealership. Your AIS-140 VLTD & Mining Growth Hub.</h2></div>
+          <p>Route Tech empowers local partners across Bihar with high profit margins, direct Vahan 4.0 mapping, Khanan Soft integration support, and guaranteed district fleet leads.</p>
         </div>
         <div className="dealer-benefit-grid">
           {benefits.map(({ icon: BenefitIcon, title, text }, index) => <article key={title} data-dealer-reveal><span className="benefit-number">0{index + 1}</span><div className="benefit-icon"><BenefitIcon size={24} /></div><h3>{title}</h3><p>{text}</p></article>)}
@@ -176,13 +176,13 @@ export function DealerNetworkExperience() {
 
     <section className="dealer-process">
       <div className="shell dealer-process-layout">
-        <div data-dealer-reveal><span className="dealer-kicker dark"><i /> A clear route to partnership</span><h2>Start local. Grow with a connected team.</h2><p>We keep the first conversation practical: your district, local market, operating experience and the customers you want to serve.</p></div>
+        <div data-dealer-reveal><span className="dealer-kicker dark"><i /> BECOME A GPS DEALER IN BIHAR</span><h2>Start Local. Scale Your AIS-140 & Mining GPS Business.</h2><p>Simple 4-step onboarding to become Route Tech’s authorized GPS distributor across Patna and all 38 districts of Bihar.</p></div>
         <div className="dealer-process-steps">
           {[
-            ["01", "Share your district", "Tell us where you operate and the vehicle segments you understand."],
-            ["02", "Align the opportunity", "We discuss product fit, expectations and the support available to you."],
-            ["03", "Get network-ready", "Complete onboarding and receive the practical material needed to begin."],
-            ["04", "Build your local route", "Serve nearby fleets with Route Tech support behind every conversation."],
+            ["01", "Select Your Bihar District", "Tell us your target district (e.g., Patna, Rohtas, Gaya) and commercial transport or mining focus."],
+            ["02", "Select Solutions & Margins", "Choose your portfolio—MoRTH AIS-140 VLTD devices, Khanan Soft sand tipper trackers, or both—with tier-1 margins."],
+            ["03", "Receive Demo Units & Portal Access", "Get fast dealer onboarding, marketing kits, Vahan 4.0 mapping access, and Khanan Soft integration tools."],
+            ["04", "Receive District Leads & Support", "Start fitting commercial fleets with verified local customer leads and 24/7 technical support behind you."],
           ].map(([number, title, text]) => <article key={number} data-dealer-reveal><span>{number}</span><div><h3>{title}</h3><p>{text}</p></div></article>)}
         </div>
       </div>
@@ -190,8 +190,8 @@ export function DealerNetworkExperience() {
 
     <section className="dealer-join" id="join-network">
       <div className="shell dealer-join-card" data-dealer-reveal>
-        <div><span className="dealer-kicker"><i /> Your district. Our platform. One route forward.</span><h2>Build the next trusted GPS destination in your district.</h2><p>Speak with Route Tech about joining Bihar’s growing AIS-140 and commercial GPS dealer network.</p></div>
-        <div className="dealer-join-actions"><Link href="/contact" className="btn dealer-primary">Apply for dealership <ArrowRight size={18} /></Link><a href="tel:+918935989871">Call +91 89359 89871</a></div>
+        <div><span className="dealer-kicker"><i /> AUTHORIZED GPS DEALERSHIP IN BIHAR</span><h2>Become the Authorized AIS-140 VLTD & Mining GPS Hub in Your District.</h2><p>Partner with Route Tech for MoRTH-approved VLTD devices, Khanan Soft integration tools, tier-1 margins, and guaranteed district fleet leads across Bihar.</p></div>
+        <div className="dealer-join-actions"><Link href="/contact" className="btn dealer-primary">Apply for Dealership Now<ArrowRight size={18} /></Link><a href="tel:+918935989871">Call GPS Partner Desk: +91 89359 89871</a></div>
         <Sparkles className="dealer-join-spark" size={92} aria-hidden="true" />
       </div>
     </section>
