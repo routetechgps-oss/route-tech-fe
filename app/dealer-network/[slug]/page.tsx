@@ -34,6 +34,19 @@ type DistrictPageProps = {
   params: Promise<{ slug: string }>;
 };
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return biharDistricts.map((district) => ({ slug: districtCoverageSlug(district) }));
+}
+
+export async function generateMetadata({ params }: DistrictPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const district = getDistrictFromCoverageSlug(slug);
+
+  if (!district) {
+    return { title: "District GPS Coverage Not Found", robots: { index: false, follow: false } };
+  }
 const serviceItems = [
   `AIS-140 VLTD GPS Fitting In ${district} : RTO-approved installation for commercial fleets`,
   "Vahan 4.0 Portal Sync: Instant fitness clearance & registration mapping",
