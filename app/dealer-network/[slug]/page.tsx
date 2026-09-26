@@ -34,23 +34,10 @@ type DistrictPageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return biharDistricts.map((district) => ({ slug: districtCoverageSlug(district) }));
-}
-
-export async function generateMetadata({ params }: DistrictPageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const district = getDistrictFromCoverageSlug(slug);
-
-  if (!district) {
-    return { title: "District GPS Coverage Not Found", robots: { index: false, follow: false } };
-  }
 const serviceItems = [
-  `AIS-140 VLTD GPS Fitting In ${district} : RTO-approved installation for commercial fleets`,
+  `AIS-140 VLTD GPS Fitting : RTO-approved installation for commercial fleets`,
   "Vahan 4.0 Portal Sync: Instant fitness clearance & registration mapping",
-  `Mining & Sand Ghat GPS In ${district} : Khanan Soft integration & ISTP route tracking`,
+  `Mining & Sand Ghat GPS : Khanan Soft integration & ISTP route tracking`,
   "School Bus Compliance: Mandated AIS-140 tracking with SOS panic buttons",
   "Heavy Commercial Fleet Tracking: Real-time GPS for trucks, tippers & dumpers"
 ];
@@ -78,11 +65,20 @@ const stats: Array<{ icon: LucideIcon; value: string; label: string }> = [
   { icon: Headphones, value: "24/7", label: "BIHAR TECHNICAL DESK" },
   { icon: BadgeCheck, value: "100%", label: "VAHAN & KHANAN SOFT SYNC" },
 ];
- 
-
-
-
   
+ export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return biharDistricts.map((district) => ({ slug: districtCoverageSlug(district) }));
+}
+
+export async function generateMetadata({ params }: DistrictPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const district = getDistrictFromCoverageSlug(slug);
+
+  if (!district) {
+    return { title: "District GPS Coverage Not Found", robots: { index: false, follow: false } };
+  } 
 
   const title = `AIS-140 VLTD & Mining GPS Solutions in ${district} | Installation & Tracking`;
   const description = `Get AIS-140 certified GPS installation in ${district}, Bihar with NIC/Vahan integration, VLTD registration support, 24x7 live tracking and local Route Tech assistance.`;
