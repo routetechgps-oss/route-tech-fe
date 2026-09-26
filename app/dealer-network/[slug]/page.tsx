@@ -61,11 +61,11 @@ const installationSteps: Array<{ icon: LucideIcon; title: string; text: string }
 ];
 
 const stats: Array<{ icon: LucideIcon; value: string; label: string }> = [
-  { icon: Building2, value: "38+", label: "Districts covered" },
-  { icon: UsersRound, value: "5000+", label: "Happy customers" },
-  { icon: ClipboardCheck, value: "10000+", label: "Devices installed" },
-  { icon: Headphones, value: "24x7", label: "Support" },
-  { icon: BadgeCheck, value: "100%", label: "Compliance focus" },
+  { icon: Building2, value: "38", label: "BIHAR DISTRICTS COVERED" },
+  { icon: UsersRound, value: "5000+", label: "FLEETS & TRUCK OWNERS" },
+  { icon: ClipboardCheck, value: "10000+", label: "AIS-140 & MINING GPS FITTED" },
+  { icon: Headphones, value: "24/7", label: "BIHAR TECHNICAL DESK" },
+  { icon: BadgeCheck, value: "100%", label: "VAHAN & KHANAN SOFT SYNC" },
 ];
 
 export const dynamicParams = false;
@@ -214,7 +214,7 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
               Vahan 4.0 & Khanan Soft Portal Sync Guaranteed.
             </p>
             <p className="mb-6 max-w-[610px] text-[14px] font-semibold leading-7 text-slate-600 sm:text-[16px]">
-              Route Tech provides MoRTH-approved AIS-140 VLTD devices and Khanan Soft GPS tracking across Patna and Bihar. Complete RTO fitness approval, panic buttons, e-challan safety, and same-day doorstep fitting for trucks, tippers, dumpers, and school buses.
+              Route Tech provides MoRTH-approved AIS-140 VLTD devices and Khanan Soft GPS tracking across ${district} Bihar. Complete RTO fitness approval, panic buttons, e-challan safety, and same-day doorstep fitting for trucks, tippers, dumpers, and school buses.
             </p>
 
             <div className="mb-7 grid grid-cols-2 gap-2 sm:grid-cols-4">
