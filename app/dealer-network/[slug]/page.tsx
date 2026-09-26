@@ -222,8 +222,8 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
                 { icon: ShieldCheck, title: "AIS-140 & MoRTH", text: "Certified" },
                 { icon: FileCheck2, title: "Vahan & Khanan Soft", text: "Sync" },
                 { icon: Satellite, title: "Same-Day Doorstep", text: "Fitting" },
-                { icon: Headphones, title: "24/7 Support", text: "Desk
-                  " },
+                { icon: Headphones, title: "24/7 Support", text: "Desk" 
+                },
               ].map(({ icon: Icon, title, text }) => (
                 <div key={title} className="flex min-h-[58px] items-center gap-2 rounded-xl border border-blue-100 bg-white px-3">
                   <Icon className="shrink-0 text-route-blue" size={20} />
