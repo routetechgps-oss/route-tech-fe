@@ -28,10 +28,10 @@ const additionalPhoneDisplay = "+91 84095 39047";
 const whatsappHref = "https://wa.me/918935989871";
 
 const heroPromises = [
-  { label: "AIS140 Certified", icon: ShieldCheck },
-  { label: "24x7 Support", icon: Headphones },
-  { label: "Expert Installation", icon: BadgeCheck },
-  { label: "Quick Response", icon: Clock3 },
+  { label: "AIS-140 & Vahan Approved", icon: ShieldCheck },
+  { label: "Khanan Soft GPS Sync", icon: Headphones },
+  { label: "Same-Day Doorstep Fitting", icon: BadgeCheck },
+  { label: "24/7 Bihar Technical Help", icon: Clock3 },
 ];
 
 const branches = [
@@ -39,7 +39,7 @@ const branches = [
   { district: "Gaya", address: "Gaya, Bihar – 823001", slug: "gaya" },
   { district: "Muzaffarpur", address: "Muzaffarpur, Bihar – 842001", slug: "muzaffarpur" },
   { district: "Bhagalpur", address: "Bhagalpur, Bihar – 812001", slug: "bhagalpur" },
-  { district: "Jehanabad", address: "Jehanabad, Bihar – 804408", slug: "jehanabad" },
+  { district: "Jehanabad", address: "Defence Colony, Near By Dr Bhim Rao Ambedkar Hostel jehanabad, Bihar - 804408", slug: "jehanabad" },
 ];
 
 export function ContactExperience() {
@@ -56,7 +56,7 @@ export function ContactExperience() {
       <section className="relative isolate min-h-[640px] overflow-hidden bg-white sm:min-h-[600px] lg:min-h-[560px]">
         <Image
           src="/images/route-tech/contact-hero-certified-device.png"
-          alt="Route Tech AIS-140 certified GPS device with a commercial truck and school bus in Bihar"
+          alt="Route Tech ARAI approved AIS-140 VLTD GPS device and Khanan Soft tracking for trucks, tippers, and school buses in Bihar"
           fill
           priority
           sizes="100vw"
@@ -73,8 +73,7 @@ export function ContactExperience() {
               We&apos;re Here to Help You <span className="block text-route-orange">24x7</span>
             </h1>
             <p className="mb-7 max-w-[430px] text-[16px] font-medium leading-7 text-slate-600 sm:text-[17px]">
-              Have questions or need assistance? Our team is ready to help you with the
-              best GPS tracking solutions for your vehicles and business.
+              Need AIS-140 VLTD or Bihar Mining GPS Assistance? Our local Bihar experts are ready to help with doorstep fitting, Vahan 4.0 portal sync, Khanan Soft integration, and e-challan protection.
             </p>
             <div className="mb-7 h-[3px] w-16 rounded-full bg-route-orange" />
 
@@ -340,10 +339,10 @@ export function ContactExperience() {
           </span>
           <div className="flex-1">
             <h2 className="mb-1 text-[23px] font-black tracking-[-.03em] sm:text-[28px]">
-              Looking for AIS140 GPS Solutions for Your Fleet?
+              Looking for AIS-140 VLTD or Bihar Mining GPS Solutions for Your Fleet?
             </h2>
             <p className="m-0 text-[14px] font-medium leading-6 text-blue-100">
-              Get a free quote today and experience the best GPS tracking solution in Bihar.
+              Get a free quote today! Fast doorstep fitting, instant Vahan portal sync, and Khanan Soft integration with 24/7 support across all 38 districts.
             </p>
           </div>
           <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
