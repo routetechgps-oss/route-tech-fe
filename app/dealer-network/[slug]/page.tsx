@@ -37,7 +37,7 @@ type DistrictPageProps = {
 const serviceItems = [
   `AIS-140 VLTD GPS Fitting In {district} : RTO-approved installation for commercial fleets`,
   "Vahan 4.0 Portal Sync: Instant fitness clearance & registration mapping",
-  `Mining & Sand Ghat GPS In ${district} : Khanan Soft integration & ISTP route tracking`,
+  `Mining & Sand Ghat GPS In {district} : Khanan Soft integration & ISTP route tracking`,
   "School Bus Compliance: Mandated AIS-140 tracking with SOS panic buttons",
   "Heavy Commercial Fleet Tracking: Real-time GPS for trucks, tippers & dumpers",
 ];
@@ -45,13 +45,13 @@ const serviceItems = [
 const reasonItems = [
   "MoRTH & ARAI Certified: Official AIS-140 devices with panic buttons",
   "100% Vahan & Khanan Soft Sync: Hassle-free government portal integration",
-  `Same-Day Doorstep Fitment In ${district} : On-site installation across Sheohar district`,
+  `Same-Day Doorstep Fitment In {district} : On-site installation across Sheohar district`,
   "24/7 Local Support Desk: Fast technical assistance & e-challan protection",
   "Device Warranty & On-Site Service: Full after-sales hardware replacement",
 ];
 
 const installationSteps: Array<{ icon: LucideIcon; title: string; text: string }> = [
-  { icon: CalendarDays, title: `Book Installation In ${district} `, text: `Schedule doorstep fitting online or call our ${district} GPS desk for your vehicle or fleet.` },
+  { icon: CalendarDays, title: `Book Installation In {district} `, text: `Schedule doorstep fitting online or call our ${district} GPS desk for your vehicle or fleet.` },
   { icon: UsersRound, title: "Technician Visit", text: "Our certified technician arrives at your site, workshop, or mining hub at your preferred time." },
   { icon: Wrench, title: "Hardware Fitting", text: "ARAI-approved AIS-140 VLTD unit or IP67 rugged mining GPS with panic buttons fitted securely." },
   { icon: FileCheck2, title: "Portal Mapping", text: "Instant mapping and activation on Vahan 4.0 for RTO fitness and Khanan Soft for mining e-challans." },
