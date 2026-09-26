@@ -82,7 +82,7 @@ export async function generateMetadata({ params }: DistrictPageProps): Promise<M
     return { title: "District GPS Coverage Not Found", robots: { index: false, follow: false } };
   }
 
-  const title = `AIS-140 GPS Solution in ${district} | Installation & Tracking`;
+  const title = `AIS-140 VLTD & Mining GPS Solutions in ${district} | Installation & Tracking`;
   const description = `Get AIS-140 certified GPS installation in ${district}, Bihar with NIC/Vahan integration, VLTD registration support, 24x7 live tracking and local Route Tech assistance.`;
   const canonical = districtCoveragePath(district);
 
@@ -201,28 +201,29 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
         <div className="relative z-10 mx-auto flex min-h-[640px] w-[calc(100%_-_32px)] max-w-[1180px] items-center py-12 sm:w-[calc(100%_-_40px)]">
           <div className="max-w-[650px] rounded-[28px] border border-white/80 bg-white/90 p-6 shadow-[0_24px_70px_rgba(7,47,103,.14)] backdrop-blur-sm sm:p-9">
             <span className="mb-5 inline-flex items-center rounded-lg bg-route-orange px-3 py-2 text-[11px] font-black uppercase tracking-[.13em] text-white">
-              {district} district coverage
+              {district} ALL 38 DISTRICTS COVERAGE
             </span>
 
             <h1 className="mb-4 text-[42px] font-black leading-[.98] tracking-[-.055em] text-route-ink sm:text-[58px] lg:text-[68px]">
-              AIS140 GPS
+              AIS-140 VLTD & Mining GPS
               <span className="block">
                 Solutions in <em className="not-italic text-route-orange">{district}</em>
               </span>
             </h1>
             <p className="mb-4 text-[19px] font-black text-route-navy sm:text-[22px]">
-              Reliable Tracking. Compliance Guaranteed.
+              Vahan 4.0 & Khanan Soft Portal Sync Guaranteed.
             </p>
             <p className="mb-6 max-w-[610px] text-[14px] font-semibold leading-7 text-slate-600 sm:text-[16px]">
-              Route Tech provides AIS140 certified GPS solutions and installation services across {district}, ensuring vehicle safety and government compliance with real-time monitoring.
+              Route Tech provides MoRTH-approved AIS-140 VLTD devices and Khanan Soft GPS tracking across Patna and Bihar. Complete RTO fitness approval, panic buttons, e-challan safety, and same-day doorstep fitting for trucks, tippers, dumpers, and school buses.
             </p>
 
             <div className="mb-7 grid grid-cols-2 gap-2 sm:grid-cols-4">
               {[
-                { icon: ShieldCheck, title: "AIS140", text: "Certified" },
-                { icon: FileCheck2, title: "NIC / Vahan", text: "Ready" },
-                { icon: Satellite, title: "24x7", text: "Tracking" },
-                { icon: Headphones, title: "Local", text: "Support" },
+                { icon: ShieldCheck, title: "AIS-140 & MoRTH", text: "Certified" },
+                { icon: FileCheck2, title: "Vahan & Khanan Soft", text: "Sync" },
+                { icon: Satellite, title: "Same-Day Doorstep", text: "Fitting" },
+                { icon: Headphones, title: "24/7 Support", text: "Desk
+                  " },
               ].map(({ icon: Icon, title, text }) => (
                 <div key={title} className="flex min-h-[58px] items-center gap-2 rounded-xl border border-blue-100 bg-white px-3">
                   <Icon className="shrink-0 text-route-blue" size={20} />
