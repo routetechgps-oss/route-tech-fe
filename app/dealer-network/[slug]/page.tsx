@@ -35,29 +35,27 @@ type DistrictPageProps = {
 };
 
 const serviceItems = [
-  "AIS140 GPS installation for commercial vehicles",
-  "NIC / Vahan integration and registration",
-  "VLTD registration and compliance support",
-  "Mining GPS installation and management",
-  "School bus GPS tracking solution",
-  "Commercial fleet tracking for trucks, tempos, cabs and buses",
+  `AIS-140 VLTD GPS Fitting In ${district} : RTO-approved installation for commercial fleets`,
+  "Vahan 4.0 Portal Sync: Instant fitness clearance & registration mapping",
+  `Mining & Sand Ghat GPS In ${district} : Khanan Soft integration & ISTP route tracking`,
+  "School Bus Compliance: Mandated AIS-140 tracking with SOS panic buttons",
+  "Heavy Commercial Fleet Tracking: Real-time GPS for trucks, tippers & dumpers",
 ];
 
 const reasonItems = [
-  "AIS140 certified devices",
-  "NIC and Vahan portal integration",
-  "Expert installation across the district",
-  "Fast service and local support",
-  "24x7 tracking and technical support",
-  "Warranty and after-sales service",
+  "MoRTH & ARAI Certified: Official AIS-140 devices with panic buttons",
+  "100% Vahan & Khanan Soft Sync: Hassle-free government portal integration",
+  `Same-Day Doorstep Fitment In ${district} : On-site installation across Sheohar district`,
+  "24/7 Local Support Desk: Fast technical assistance & e-challan protection",
+  "Device Warranty & On-Site Service: Full after-sales hardware replacement",
 ];
 
 const installationSteps: Array<{ icon: LucideIcon; title: string; text: string }> = [
-  { icon: CalendarDays, title: "Book Service", text: "Schedule your installation online or call us." },
-  { icon: UsersRound, title: "Engineer Visit", text: "Our expert visits your location at the scheduled time." },
-  { icon: Wrench, title: "Device Installation", text: "The AIS140 device is installed securely in your vehicle." },
-  { icon: FileCheck2, title: "NIC Registration", text: "We register the device on the NIC / Vahan portal." },
-  { icon: MonitorSmartphone, title: "Live Tracking", text: "Your vehicle is live and ready for 24x7 tracking." },
+  { icon: CalendarDays, title: `Book Installation In ${district} `, text: `Schedule doorstep fitting online or call our ${district} GPS desk for your vehicle or fleet.` },
+  { icon: UsersRound, title: "Technician Visit", text: "Our certified technician arrives at your site, workshop, or mining hub at your preferred time." },
+  { icon: Wrench, title: "Hardware Fitting", text: "ARAI-approved AIS-140 VLTD unit or IP67 rugged mining GPS with panic buttons fitted securely." },
+  { icon: FileCheck2, title: "Portal Mapping", text: "Instant mapping and activation on Vahan 4.0 for RTO fitness and Khanan Soft for mining e-challans." },
+  { icon: MonitorSmartphone, title: "Live Fleet Tracking", text: "Receive live app access, certificate, and 24/7 route tracking with overspeed and geofence alerts." },
 ];
 
 const stats: Array<{ icon: LucideIcon; value: string; label: string }> = [
@@ -142,10 +140,10 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
     "...and more",
   ];
   const atAGlance = [
-    { icon: Building2, text: `District-wide service in ${district}` },
-    { icon: Truck, text: "Commercial and mining vehicle support" },
-    { icon: Route, text: "Major road and transport-route coverage" },
-    { icon: Headphones, text: "Local installation coordination" },
+    { icon: Building2, text: `Complete ${district} District Coverage: Doorstep service across all blocks` },
+    { icon: Truck, text: "Commercial & Mining Vehicle Hub: Heavy trucks, sand tippers, & buses" },
+    { icon: Route, text: "State Highway & Transport Coverage: Active tracking on key logistics routes" },
+    { icon: Headphones, text: "Local Fitment Coordination: Direct technician dispatch in Sheohar" },
   ];
 
   const schema = {
@@ -372,9 +370,9 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
         <div className="mx-auto max-w-[1120px]">
           <header className="mb-9 text-center">
             <span className="mb-3 inline-flex items-center gap-2 text-[11px] font-black uppercase tracking-[.14em] text-route-orange">
-              <Wrench size={16} /> Easy installation
+              <Wrench size={16} /> FAST DOORSTEP FITMENT
             </span>
-            <h2 className="text-[32px] font-black tracking-[-.04em] text-route-navy sm:text-[44px]">Our Installation Process</h2>
+            <h2 className="text-[32px] font-black tracking-[-.04em] text-route-navy sm:text-[44px]">Simple 5-Step GPS Fitting & Portal Sync Process</h2>
           </header>
 
           <div className="grid gap-4 md:grid-cols-5">
@@ -404,18 +402,18 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
               <BusFront size={27} />
             </span>
             <div>
-              <h2 className="mb-2 text-[26px] font-black text-white sm:text-[32px]">Secure Your Fleet. Stay Compliant. Stay Ahead.</h2>
+              <h2 className="mb-2 text-[26px] font-black text-white sm:text-[32px]">Secure Your Fleet. Ensure 100% RTO & Mining Compliance.</h2>
               <p className="m-0 max-w-[680px] text-[13px] font-semibold leading-6 text-blue-200">
-                Get AIS140 GPS installation in {district} and ensure government compliance with real-time tracking and complete peace of mind.
+                Get MoRTH-approved AIS-140 VLTD & Mining GPS fitting in Sheohar. Instant Vahan 4.0 fitness approval and Khanan Soft portal sync with doorstep installation.
               </p>
             </div>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link href="/contact" className="inline-flex min-h-[54px] items-center justify-center gap-3 rounded-xl bg-route-orange px-7 text-[15px] font-extrabold text-white">
-              Get a Quote <ArrowRight size={18} />
+              Get Instant Quote & Fitting <ArrowRight size={18} />
             </Link>
             <a href="tel:+918935989871" className="inline-flex min-h-[54px] items-center justify-center gap-3 rounded-xl border border-white/35 px-7 text-[15px] font-extrabold text-white">
-              Call Now <Phone size={18} fill="currentColor" />
+              `Call ${district} Support Desk` <Phone size={18} fill="currentColor" />
             </a>
           </div>
         </div>
