@@ -212,7 +212,7 @@ export default async function DistrictCoveragePage({ params }: DistrictPageProps
               Vahan 4.0 & Khanan Soft Portal Sync Guaranteed.
             </p>
             <p className="mb-6 max-w-[610px] text-[14px] font-semibold leading-7 text-slate-600 sm:text-[16px]">
-              Route Tech provides MoRTH-approved AIS-140 VLTD devices and Khanan Soft GPS tracking across ${district} Bihar. Complete RTO fitness approval, panic buttons, e-challan safety, and same-day doorstep fitting for trucks, tippers, dumpers, and school buses.
+              Route Tech provides MoRTH-approved AIS-140 VLTD devices and Khanan Soft GPS tracking across {district} Bihar. Complete RTO fitness approval, panic buttons, e-challan safety, and same-day doorstep fitting for trucks, tippers, dumpers, and school buses.
             </p>
 
             <div className="mb-7 grid grid-cols-2 gap-2 sm:grid-cols-4">
