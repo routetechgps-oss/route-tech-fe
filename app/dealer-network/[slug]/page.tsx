@@ -35,7 +35,7 @@ type DistrictPageProps = {
 };
 
 const serviceItems = [
-  `AIS-140 VLTD GPS Fitting In ${district} : RTO-approved installation for commercial fleets`,
+  `AIS-140 VLTD GPS Fitting In {district} : RTO-approved installation for commercial fleets`,
   "Vahan 4.0 Portal Sync: Instant fitness clearance & registration mapping",
   `Mining & Sand Ghat GPS In ${district} : Khanan Soft integration & ISTP route tracking`,
   "School Bus Compliance: Mandated AIS-140 tracking with SOS panic buttons",
