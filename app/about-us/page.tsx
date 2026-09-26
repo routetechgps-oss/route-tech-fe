@@ -167,27 +167,27 @@ export default function AboutPage() {
           <div>
             <div className="mb-5 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.12em] text-route-blue shadow-sm">
-                <Building2 size={16} /> About Route Tech
+                <Building2 size={16} /> ABOUT ROUTE TECH
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50/90 px-4 py-2 text-[11px] font-black uppercase tracking-[.1em] text-route-orange shadow-sm">
-                <MapPin size={16} /> All 38 districts
+                <MapPin size={16} /> PATNA & ALL 38 BIHAR DISTRICTS
               </span>
             </div>
 
             <h1 className="mb-5 text-[40px] font-black leading-[1] tracking-[-.05em] text-route-ink sm:text-[54px] lg:text-[64px]">
-              Bihar&apos;s trusted
-              <span className="block text-route-orange">AIS-140 GPS partner</span>
+              Bihar&apos;s Authorized
+              <span className="block text-route-orange">AIS-140 VLTD & Mining GPS Partner</span>
             </h1>
             <p className="mb-6 max-w-[560px] text-[15px] font-semibold leading-7 text-slate-600 sm:text-[17px]">
-              Route Tech helps commercial vehicle owners and fleet teams across Bihar adopt GPS tracking with more confidence and less complexity—from a single owner-driver in Patna to fleets working across districts.
+              Route Tech empowers commercial vehicle owners and mining fleet operators across Bihar with ARAI-approved AIS-140 VLTD devices and Khanan Soft portal sync. From single truck owners in Patna to large sand tipper and dumper fleets across all 38 districts, we deliver instant Vahan 4.0 fitness clearance, e-challan safety, and same-day doorstep fitting.
             </p>
 
             <div className="mb-8 grid max-w-[560px] grid-cols-2 gap-2">
               {[
-                ["AIS-140 certified", ShieldCheck],
-                ["Professional installation", FileCheck2],
-                ["Bihar-wide coverage", MapPin],
-                ["Local support team", Headphones],
+                ["AIS-140 & MoRTH Certified", ShieldCheck],
+                ["Same-Day Doorstep Fitting", FileCheck2],
+                ["Vahan & Khanan Soft Sync", MapPin],
+                ["24/7 Bihar Technical Desk", Headphones],
               ].map(([label, Ic]) => (
                 <span
                   key={label as string}
@@ -207,13 +207,13 @@ export default function AboutPage() {
                 href="/services"
                 className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl bg-route-blue px-7 text-[16px] font-extrabold text-white shadow-[0_15px_34px_rgba(20,105,211,.26)] transition hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
               >
-                Explore our services <ArrowRight size={20} />
+                Explore AIS-140 & Mining GPS <ArrowRight size={20} />
               </Link>
               <Link
                 href="/contact"
                 className="inline-flex min-h-[56px] items-center justify-center gap-3 rounded-xl border border-blue-200 bg-white px-7 text-[16px] font-extrabold text-route-blue shadow-sm transition hover:bg-blue-50 focus:outline-none focus:ring-4 focus:ring-blue-100"
               >
-                Talk to us <ArrowRight size={20} />
+                Call GPS Support Desk <ArrowRight size={20} />
               </Link>
             </div>
           </div>
@@ -235,7 +235,7 @@ export default function AboutPage() {
               </span>
               <div>
                 <p className="m-0 text-[22px] font-black leading-none text-route-ink">38</p>
-                <p className="m-0 text-[11px] font-bold text-slate-500">districts covered</p>
+                <p className="m-0 text-[11px] font-bold text-slate-500">Bihar Districts Covered</p>
               </div>
             </div>
           </div>
